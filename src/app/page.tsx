@@ -14,7 +14,7 @@ const t = {
       </>
     ),
     heroP: "Posicionamiento web (SEO & AEO), gestión estratégica de redes y campañas de publicidad digital para hacer crecer tu negocio.",
-    viewWork: "Ver Nuestro Trabajo",
+    viewWork: "Analiza tu empresa gratis",
     contact: "Contactar",
     navWork: "Trabajos",
     navServices: "Servicios",
@@ -76,7 +76,7 @@ const t = {
       </>
     ),
     heroP: "Web positioning (SEO & AEO), social media management, and digital ad campaigns to grow your business.",
-    viewWork: "View Our Work",
+    viewWork: "Analyze your business free",
     contact: "Get in Touch",
     navWork: "Work",
     navServices: "Services",
@@ -173,7 +173,7 @@ export default function Home() {
             </div>
             <div className="hidden md:flex items-center gap-4">
               <button onClick={toggleLang} className="lang-toggle" aria-label="Switch language">{flagLabel}</button>
-              <button className="btn-brutal text-sm py-2 px-4">{c.cta}</button>
+              <a href="/demo" className="btn-brutal text-sm py-2 px-4">{c.viewWork}</a>
             </div>
             <button className="md:hidden p-2 brutal-border cursor-pointer" aria-label="Toggle menu" onClick={() => setMobileMenu(!mobileMenu)}>
               <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
@@ -187,7 +187,10 @@ export default function Home() {
               <a href="#services" onClick={() => setMobileMenu(false)} className="block text-sm font-bold uppercase tracking-wider hover:text-[var(--primary)] transition-colors">{c.navServices}</a>
               <a href="#about" onClick={() => setMobileMenu(false)} className="block text-sm font-bold uppercase tracking-wider hover:text-[var(--primary)] transition-colors">{c.navAbout}</a>
               <a href="#contact" onClick={() => setMobileMenu(false)} className="block text-sm font-bold uppercase tracking-wider hover:text-[var(--primary)] transition-colors">{c.navContact}</a>
-              <button onClick={toggleLang} className="lang-toggle mt-2">{flagLabel}</button>
+              <div className="flex items-center gap-3 mt-2">
+                <button onClick={toggleLang} className="lang-toggle">{flagLabel}</button>
+                <a href="/demo" className="btn-brutal text-sm py-2 px-4">{c.viewWork}</a>
+              </div>
             </div>
           )}
         </div>
@@ -205,13 +208,13 @@ export default function Home() {
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-none mb-8">{c.heroH1}</h1>
                 <p className="text-lg md:text-xl text-[var(--text-muted)] mb-10 max-w-sm md:max-w-md">{c.heroP}</p>
                 <div className="flex flex-wrap gap-4">
-                  <button className="btn-brutal">
+                  <a href="/demo" className="btn-brutal">
                     {c.viewWork}
                     <svg className="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
                       <path strokeLinecap="square" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>
-                  </button>
-                  <button className="btn-outline">{c.contact}</button>
+                  </a>
+                  <a href="#contact" className="btn-outline">{c.contact}</a>
                 </div>
               </div>
               <div className="relative hidden lg:block">
@@ -291,7 +294,7 @@ export default function Home() {
               { num: "02", color: "var(--secondary)", title: c.s2Title, desc: c.s2Desc },
               { num: "03", color: "var(--cta)", title: c.s3Title, desc: c.s3Desc },
             ].map((s, i) => (
-              <div key={i} className="group py-8 cursor-pointer hover:bg-white/5 transition-colors px-4 -mx-4" style={{ borderTop: "3px solid white" }}>
+              <a key={i} href="/demo" className="group block py-8 cursor-pointer hover:bg-white/5 transition-colors px-4 -mx-4" style={{ borderTop: "3px solid white" }}>
                 <div className="flex flex-col md:flex-row md:items-center gap-6">
                   <span className="text-5xl font-bold opacity-50" style={{ color: s.color }}>{s.num}</span>
                   <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold flex-1">{s.title}</h3>
@@ -300,7 +303,7 @@ export default function Home() {
                     <ArrowRight />
                   </div>
                 </div>
-              </div>
+              </a>
             ))}
             <div style={{ borderTop: "3px solid white" }} />
           </div>
@@ -402,6 +405,7 @@ export default function Home() {
             <div>
               <h4 className="font-bold uppercase tracking-wider mb-4">{c.links}</h4>
               <ul className="space-y-2">
+                <li><a href="/demo" className="text-[var(--text-muted)] hover:text-[var(--text)] transition-colors font-bold">Demo</a></li>
                 <li><a href="#work" className="text-[var(--text-muted)] hover:text-[var(--text)] transition-colors">{c.navWork}</a></li>
                 <li><a href="#services" className="text-[var(--text-muted)] hover:text-[var(--text)] transition-colors">{c.navServices}</a></li>
                 <li><a href="#about" className="text-[var(--text-muted)] hover:text-[var(--text)] transition-colors">{c.navAbout}</a></li>

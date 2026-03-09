@@ -154,6 +154,61 @@ html {
   transform: translate(4px, 4px);
 }
 
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slide-in {
+  from { opacity: 0; transform: translateX(-20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes blink-cursor {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+@keyframes intro-in {
+  0% { opacity: 0; transform: scale(0.8); }
+  60% { opacity: 1; transform: scale(1.05); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+@keyframes corner-pulse-tl {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  50% { transform: translate(6px, 6px) rotate(3deg); }
+}
+@keyframes corner-pulse-tr {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  50% { transform: translate(-6px, 6px) rotate(-3deg); }
+}
+@keyframes corner-pulse-bl {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  50% { transform: translate(6px, -6px) rotate(-3deg); }
+}
+@keyframes corner-pulse-br {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  50% { transform: translate(-6px, -6px) rotate(3deg); }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.4s ease-out forwards;
+}
+
+.animate-slide-in {
+  animation: slide-in 0.5s ease-out forwards;
+}
+
+.animate-intro {
+  animation: intro-in 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-corner-tl { animation: corner-pulse-tl 3s ease-in-out infinite; }
+.animate-corner-tr { animation: corner-pulse-tr 3s ease-in-out infinite 0.5s; }
+.animate-corner-bl { animation: corner-pulse-bl 3s ease-in-out infinite 1s; }
+.animate-corner-br { animation: corner-pulse-br 3s ease-in-out infinite 1.5s; }
+
 @media (prefers-reduced-motion: reduce) {
   .creative-agency *,
   .creative-agency *::before,
