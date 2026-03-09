@@ -7,16 +7,18 @@ export const metadata: Metadata = {
     "Agencia digital especializada en SEO, AEO, gestión estratégica de redes sociales y campañas de publicidad digital.",
   metadataBase: new URL("https://brutal-agency.onrender.com"),
   openGraph: {
-    title: "BRUTAL. - Agencia Digital",
-    description: "Hacemos que te encuentren. SEO & AEO, Social Media, Google Ads y Meta Ads.",
+    title: "BRUTAL. - Agencia Digital | SEO, AEO, Social Media & Ads",
+    description: "Hacemos que te encuentren. Posicionamiento web (SEO & AEO), gestión estratégica de redes sociales y campañas de publicidad digital para hacer crecer tu negocio.",
     siteName: "BRUTAL.",
     locale: "es_ES",
     type: "website",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "BRUTAL. - Agencia Digital" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "BRUTAL. - Agencia Digital",
-    description: "Hacemos que te encuentren. SEO & AEO, Social Media, Google Ads y Meta Ads.",
+    title: "BRUTAL. - Agencia Digital | SEO, AEO, Social Media & Ads",
+    description: "Hacemos que te encuentren. Posicionamiento web (SEO & AEO), gestión estratégica de redes sociales y campañas de publicidad digital para hacer crecer tu negocio.",
+    images: ["/og-image.png"],
   },
 };
 
