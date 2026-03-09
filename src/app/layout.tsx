@@ -5,6 +5,19 @@ export const metadata: Metadata = {
   title: "BRUTAL. - Agencia Digital",
   description:
     "Agencia digital especializada en SEO, AEO, gestión estratégica de redes sociales y campañas de publicidad digital.",
+  metadataBase: new URL("https://brutal-agency.onrender.com"),
+  openGraph: {
+    title: "BRUTAL. - Agencia Digital",
+    description: "Hacemos que te encuentren. SEO & AEO, Social Media, Google Ads y Meta Ads.",
+    siteName: "BRUTAL.",
+    locale: "es_ES",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "BRUTAL. - Agencia Digital",
+    description: "Hacemos que te encuentren. SEO & AEO, Social Media, Google Ads y Meta Ads.",
+  },
 };
 
 export default function RootLayout({
