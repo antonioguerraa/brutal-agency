@@ -118,7 +118,7 @@ Content format ideas to draw from:
 Make hooks catchy and specific to their business — not generic. Return ONLY the JSON, no other text.`;
 
     const completion = await getClient().chat.completions.create({
-      model: "gpt-4o",
+      model: "gpt-5.4",
       max_tokens: 4000,
       temperature: 0.7,
       messages: [
