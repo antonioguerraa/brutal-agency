@@ -1,7 +1,9 @@
 import OpenAI from "openai";
 import { NextRequest, NextResponse } from "next/server";
 
-const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+function getClient() {
+  return new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+}
 
 export async function POST(request: NextRequest) {
   try {
@@ -115,7 +117,7 @@ Content format ideas to draw from:
 
 Make hooks catchy and specific to their business — not generic. Return ONLY the JSON, no other text.`;
 
-    const completion = await openai.chat.completions.create({
+    const completion = await getClient().chat.completions.create({
       model: "gpt-4o",
       max_tokens: 4000,
       temperature: 0.7,
