@@ -13,20 +13,30 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "URL requerida" }, { status: 400 });
     }
 
-    // Fetch the website content
+    // Fetch the website content and extract logo
     let pageContent: string;
+    let logoUrl: string | null = null;
     try {
       const res = await fetch(url, {
         headers: {
           "User-Agent":
-            "Mozilla/5.0 (compatible; BRUTALBot/1.0; +https://brutal-agency.onrender.com)",
+            "Mozilla/5.0 (compatible; BRUTALBot/1.0; +https://brutalmk.com)",
         },
         signal: AbortSignal.timeout(10000),
       });
       const html = await res.text();
       pageContent = stripHtml(html).slice(0, 8000);
+      logoUrl = extractLogo(html, url);
     } catch {
       pageContent = `[Could not fetch the page. URL provided: ${url}. Analyze based on the URL/domain name only and make reasonable assumptions about the business.]`;
+    }
+
+    // Fallback: use Google favicon service
+    if (!logoUrl) {
+      try {
+        const domain = new URL(url).hostname;
+        logoUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=128`;
+      } catch {}
     }
 
     const systemPrompt = `You are an expert digital strategist for BRUTAL., a digital agency specializing in SEO, AEO (Answer Engine Optimization), social media content, and Meta Ads.
@@ -144,6 +154,9 @@ Make hooks catchy and specific to their business — not generic. Return ONLY th
 
     const analysis = JSON.parse(jsonStr.trim());
 
+    // Attach logoUrl to the response
+    analysis.logoUrl = logoUrl;
+
     return NextResponse.json(analysis);
   } catch (error) {
     console.error("Analysis error:", error);
@@ -152,6 +165,61 @@ Make hooks catchy and specific to their business — not generic. Return ONLY th
       { status: 500 }
     );
   }
+}
+
+function extractLogo(html: string, baseUrl: string): string | null {
+  const resolve = (href: string) => {
+    try {
+      return new URL(href, baseUrl).href;
+    } catch {
+      return null;
+    }
+  };
+
+  // 1. og:image
+  const ogMatch = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i)
+    || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i);
+  if (ogMatch) {
+    const resolved = resolve(ogMatch[1]);
+    if (resolved) return resolved;
+  }
+
+  // 2. apple-touch-icon
+  const appleMatch = html.match(/<link[^>]+rel=["']apple-touch-icon["'][^>]+href=["']([^"']+)["']/i);
+  if (appleMatch) {
+    const resolved = resolve(appleMatch[1]);
+    if (resolved) return resolved;
+  }
+
+  // 3. Large favicon (icon with sizes)
+  const iconSizes = html.match(/<link[^>]+rel=["']icon["'][^>]+sizes=["'](\d+)x\d+["'][^>]+href=["']([^"']+)["']/i)
+    || html.match(/<link[^>]+href=["']([^"']+)["'][^>]+rel=["']icon["'][^>]+sizes=["'](\d+)/i);
+  if (iconSizes) {
+    const href = iconSizes[2] || iconSizes[1];
+    const resolved = resolve(href);
+    if (resolved) return resolved;
+  }
+
+  // 4. Any shortcut icon or icon
+  const faviconMatch = html.match(/<link[^>]+rel=["'](?:shortcut )?icon["'][^>]+href=["']([^"']+)["']/i)
+    || html.match(/<link[^>]+href=["']([^"']+)["'][^>]+rel=["'](?:shortcut )?icon["']/i);
+  if (faviconMatch) {
+    const resolved = resolve(faviconMatch[1]);
+    if (resolved) return resolved;
+  }
+
+  // 5. First img in header/nav with "logo" in src/alt/class
+  const headerMatch = html.match(/<(?:header|nav)[\s\S]*?<\/(?:header|nav)>/i);
+  if (headerMatch) {
+    const logoImg = headerMatch[0].match(/<img[^>]+(?:src|alt|class)=["'][^"']*logo[^"']*["'][^>]*src=["']([^"']+)["']/i)
+      || headerMatch[0].match(/<img[^>]+src=["']([^"']+)["'][^>]*(?:alt|class)=["'][^"']*logo/i);
+    if (logoImg) {
+      const resolved = resolve(logoImg[1]);
+      if (resolved) return resolved;
+    }
+  }
+
+  return null;
 }
 
 function stripHtml(html: string): string {

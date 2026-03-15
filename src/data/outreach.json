@@ -1,0 +1,1180 @@
+{
+  "campaigns": [
+    {
+      "id": "copeinsur",
+      "company": "COPEINSUR S.L.",
+      "sector": "Construcción / Instalaciones",
+      "location": "Huelva",
+      "email": "administración@copeinsur.es",
+      "phone": "",
+      "web": "www.copeinsur.es",
+      "notes": "Web muy anticuada, sin redes sociales, sin blog, sin reseñas. No aparecen en búsquedas de Google para constructoras en Huelva.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Una cosa que vi en copeinsur.es",
+          "body": "Hola,\n\nSoy Antonio, de BRUTAL. — somos una agencia digital aquí en Huelva.\n\nEstuve echando un vistazo a vuestra web y quería comentaros algo: cuando alguien busca \"constructora en Huelva\" en Google, no aparecéis. Y lo mismo pasa con los asistentes de IA como ChatGPT o Perplexity — si alguien pregunta por constructoras en la zona, no os recomiendan.\n\nNo es un problema de vuestro trabajo — es que la web no le está contando a Google lo que hacéis.\n\nSi os interesa, os puedo mandar un par de ideas concretas para arreglarlo. Sin compromiso, solo porque estamos cerca y me pareció interesante vuestro perfil.",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:30:05.929Z"
+        },
+        {
+          "day": 3,
+          "subject": "Lo que hacen vuestros competidores (y vosotros no)",
+          "body": "Hola de nuevo,\n\nOs escribí el lunes sobre vuestra presencia online. Os cuento un dato rápido:\n\nBusqué \"empresa constructora Huelva\" y las que aparecen arriba tienen algo en común — perfil de Google Business completo con fotos de obra, reseñas de clientes y una web que se ve bien en el móvil.\n\nCopeinsur tiene la experiencia y la capacidad, pero online no se nota. Y hoy en día, muchas licitaciones y clientes particulares buscan primero en Google antes de llamar.\n\nSi queréis, os preparo un análisis rápido de qué habría que tocar primero. Son 15 minutos de una llamada.",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Último mensaje, prometido",
+          "body": "Hola,\n\nNo quiero ser pesado — solo quería dejaros la puerta abierta.\n\nSi en algún momento queréis modernizar la web o empezar a aparecer en Google cuando buscan constructoras en Huelva, aquí estamos. Somos de aquí, conocemos el mercado y trabajamos con empresas de la zona.\n\nNada más. Mucha suerte con los proyectos que tengáis en marcha.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "antonio"
+    },
+    {
+      "id": "centro-dental-cordero",
+      "company": "Centro Dental Dr. Juan Luis Cordero",
+      "sector": "Clínica Dental",
+      "location": "Huelva",
+      "email": "info@centro-dental.es",
+      "phone": "",
+      "web": "www.centro-dental.es",
+      "notes": "Web en Joomla muy anticuada, usa Google Analytics Universal (UA) que Google retiró en 2024. Solo tiene Facebook, no Instagram. Tiene blog pero probablemente desactualizado. Template genérico. Sin reservas online.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Vuestra web sigue usando un Analytics que ya no funciona",
+          "body": "Hola,\n\nHe estado mirando centro-dental.es y he visto que todavía tenéis instalado Google Analytics Universal (el antiguo UA). Google lo retiró en julio de 2024, así que probablemente lleváis meses sin datos de visitas reales.\n\nTambién he visto que solo tenéis Facebook — hoy el 70% de los pacientes que buscan dentista en Huelva os van a buscar primero en Instagram y Google Maps.\n\nSomos BRUTAL., una agencia de Huelva especializada en clínicas de salud. ¿Tienes 15 minutos esta semana para que os enseñe qué está pasando con vuestro tráfico?",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:30:11.392Z"
+        },
+        {
+          "day": 3,
+          "subject": "Un dato sobre vuestro blog",
+          "body": "Hola de nuevo,\n\nOtra cosa que vi en vuestra web: tenéis un blog en centro-dental.es/blog, lo cual es genial para SEO. Pero si no se actualiza con frecuencia, Google lo penaliza en lugar de premiarlo.\n\nUn blog con 2-3 artículos al mes sobre estética dental o implantes podría duplicar vuestras visitas orgánicas en 6 meses. Es exactamente lo que hacemos con otras clínicas de aquí.\n\n¿Os interesa que os prepare un mini-análisis gratuito de vuestro SEO actual?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Última nota — y un dato de vuestra competencia",
+          "body": "Hola,\n\nÚltimo mensaje, prometido. He mirado cómo están posicionadas las clínicas dentales en Huelva en Google y hay hueco enorme para quien haga las cosas bien.\n\nVuestra web tiene base (blog, contenido de servicios), pero el Joomla y el template genérico os están frenando. Con unos ajustes de SEO y presencia en redes, podríais estar los primeros.\n\nSi en algún momento os interesa, aquí estoy. Sin compromiso.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "jose"
+    },
+    {
+      "id": "clinica-joaquin-rodriguez",
+      "company": "Clínica Joaquín Rodríguez",
+      "sector": "Clínica Médica / Rehabilitación",
+      "location": "Huelva",
+      "email": "",
+      "phone": "959 54 14 72",
+      "web": "",
+      "notes": "No tiene página web propia. Solo aparece en Doctoralia. Sin presencia digital real. Contactar por teléfono.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Joaquín Rodríguez: pacientes que no os encuentran",
+          "body": "Hola,\n\nMe llamo Antonio y trabajo en BRUTAL., una agencia digital aquí en Huelva. He intentado buscar la Clínica Joaquín Rodríguez online y, sinceramente, es casi imposible encontraros.\n\nNo tenéis web propia, y en Google aparecéis solo en directorios genéricos. Hoy el 80% de los pacientes busca en Google antes de llamar a una clínica.\n\nPodemos montaros una presencia digital completa (web + Google Business + redes) en semanas. ¿Puedo llamaros al 959 54 14 72 para explicároslo en 5 minutos?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 3,
+          "subject": "Lo que vuestra competencia sí tiene",
+          "body": "Hola de nuevo,\n\nOs escribí hace unos días. Solo quería comentaros que las demás clínicas de rehabilitación y fisioterapia de Huelva ya tienen web, redes sociales y reservas online.\n\nCada día que pasa sin presencia digital son pacientes que eligen a otros simplemente porque los encuentran antes. No porque sean mejores.\n\n¿Os viene bien una llamada rápida esta semana?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Propuesta rápida para la clínica",
+          "body": "Hola,\n\nÚltimo mensaje por aquí. Si en algún momento os planteáis dar el salto al digital, tenemos paquetes específicos para clínicas de Huelva que empiezan desde cero: web profesional, ficha de Google optimizada e Instagram.\n\nSin permanencias, sin complicaciones. Os llamaré al teléfono de la clínica esta semana por si os interesa charlarlo.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "antonio"
+    },
+    {
+      "id": "alg-fisioterapia",
+      "company": "ALG Fisioterapia y Rehabilitación",
+      "sector": "Fisioterapia",
+      "location": "Huelva",
+      "email": "info@algfisioterapia.es",
+      "phone": "",
+      "web": "www.algfisioterapia.es",
+      "notes": "Web en WordPress con Divi. Title solo dice 'ALGFisioterapia' — pésimo SEO. Sin meta description. Embed de Facebook pero sin enlaces a redes. Sin blog. Sin reservas online.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Vuestro título en Google dice solo 'ALGFisioterapia'",
+          "body": "Hola,\n\nHe buscado clínicas de fisioterapia en Huelva y he entrado en algfisioterapia.es. He notado algo: vuestro título en Google aparece simplemente como \"ALGFisioterapia\" — sin mencionar Huelva, ni fisioterapia, ni rehabilitación.\n\nEso significa que Google no sabe bien de qué va vuestra web ni dónde estáis, y os está posicionando por debajo de clínicas que sí lo tienen optimizado.\n\nSomos BRUTAL., una agencia de aquí de Huelva. ¿Os interesa que os haga un análisis rápido y gratuito de vuestro SEO?",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:30:16.591Z"
+        },
+        {
+          "day": 3,
+          "subject": "Vuestro Facebook embebido no funciona como pensáis",
+          "body": "Hola de nuevo,\n\nOtra cosa que vi en vuestra web: tenéis un widget de Facebook embebido, pero no tenéis enlaces directos a vuestras redes ni presencia en Instagram.\n\nEl problema es que ese embed de Facebook no genera tráfico ni pacientes — es un callejón sin salida. Lo que funciona es tener un perfil de Instagram activo con contenido de valor sobre fisioterapia. Es lo que buscan los pacientes de 25 a 50 años.\n\n¿Hablamos 10 minutos sobre cómo activar esto?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "3 cosas rápidas que cambiaría en algfisioterapia.es",
+          "body": "Hola,\n\nResumen rápido de lo que os mejoraría el posicionamiento sin tocar el diseño:\n\n1. Title y meta description con palabras clave (fisioterapia + Huelva)\n2. Una página de blog con artículos sobre lesiones comunes\n3. Enlace a Instagram y Google Business en la home\n\nSon cambios que se notan en semanas. Si os interesa, me tenéis aquí al lado.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "antonio"
+    },
+    {
+      "id": "fisioterapia-axis",
+      "company": "Centro de Fisioterapia Axis",
+      "sector": "Fisioterapia",
+      "location": "Huelva",
+      "email": "axis@fisioterapiaaxis.es",
+      "phone": "628 53 56 19",
+      "web": "www.fisioterapiaaxis.es",
+      "notes": "Web en WordPress con Elementor. Buen SEO básico. Tiene Facebook e Instagram. WhatsApp integrado. 20+ años experiencia. Pero: popup con fechas de 2023 caducadas. No tiene blog. Citas solo por teléfono.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Tenéis un popup de 2023 aún activo en la web",
+          "body": "Hola,\n\nHe entrado en fisioterapiaaxis.es y me ha saltado un popup promocional con fechas de junio de 2023. Lleva casi 3 años caducado y sigue apareciendo a cada visita.\n\nParece un detalle menor, pero transmite que nadie mantiene la web. Y para alguien que busca fisioterapeuta en Google, esa primera impresión importa mucho.\n\nSomos BRUTAL., agencia digital aquí en Huelva. ¿Os echo una mano con el mantenimiento y la estrategia digital? Con 20 años de experiencia como los vuestros, merecéis una presencia online a la altura.",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:30:21.817Z"
+        },
+        {
+          "day": 3,
+          "subject": "Tenéis redes pero falta estrategia",
+          "body": "Hola de nuevo,\n\nVi que tenéis Facebook e Instagram, lo cual es un buen punto de partida. Pero tener perfiles sin una estrategia de contenidos es como tener una clínica sin cartel en la puerta.\n\nCon vídeos cortos de ejercicios, consejos de prevención y testimonios de pacientes, podríais convertir esas redes en una máquina de captar pacientes nuevos. Es lo que hacemos con otras clínicas de salud en Huelva.\n\n¿Os interesa ver ejemplos reales de cómo lo hacemos?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Última idea — reservas online",
+          "body": "Hola,\n\nÚltima cosa: he visto que para pedir cita hay que llamar al 628. Hoy el 60% de la gente prefiere reservar online, especialmente fuera de horario.\n\nUn sistema de reservas en la web y en el perfil de Google os haría ganar pacientes que ahora se van a la competencia simplemente porque es más fácil reservar allí.\n\nSi os interesa explorarlo, estamos aquí al lado. Sin compromiso.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "antonio"
+    },
+    {
+      "id": "fisioterapia-ladrero",
+      "company": "Fisioterapia Ladrero",
+      "sector": "Fisioterapia",
+      "location": "Huelva",
+      "email": "clinica@fisioterapialadrero.com",
+      "phone": "",
+      "web": "www.fisioterapialadrero.com",
+      "notes": "Web en WordPress con Divi. Dominio .com redirige a .es (inconsistencia). Tiene Facebook y Twitter pero NO Instagram. Sin blog. Template genérico.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Vuestro dominio .com y .es — un lío para Google",
+          "body": "Hola,\n\nHe entrado en fisioterapialadrero.com y me redirige a fisioterapialadrero.es. Tenéis dos dominios apuntando al mismo sitio, lo que puede confundir a Google y dividir vuestra autoridad de SEO.\n\nAdemás, he visto que tenéis Twitter pero no Instagram. En 2026, Twitter no aporta nada a una clínica de fisioterapia — Instagram y TikTok es donde están vuestros pacientes.\n\nSomos BRUTAL., agencia digital de Huelva. ¿Os interesa que revisemos vuestra estrategia digital en 15 minutos?",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:30:27.104Z"
+        },
+        {
+          "day": 3,
+          "subject": "Instagram para fisioterapeutas — os falta",
+          "body": "Hola de nuevo,\n\nUna cosa que veo en todas las clínicas de fisio que crecen: están en Instagram con contenido educativo. Vídeos de ejercicios, explicaciones de lesiones, antes y después de tratamientos.\n\nVosotros tenéis Facebook y un Twitter que probablemente nadie mira. Cambiar eso por un Instagram activo con 3-4 posts semanales os puede traer pacientes nuevos cada mes. Sin pagar publicidad.\n\n¿Queréis que os enseñe cómo lo hacemos?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Una propuesta concreta para Ladrero",
+          "body": "Hola,\n\nÚltimo email. Os propongo algo simple: dejadme haceros una auditoría gratuita de 20 minutos donde os enseño exactamente qué haríamos para mejorar vuestra visibilidad online en Huelva.\n\nSin compromiso, sin coste. Si os convence, hablamos. Si no, al menos os lleváis ideas concretas para aplicar por vuestra cuenta.\n\n¿Os viene bien esta semana?",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "antonio"
+    },
+    {
+      "id": "los-angeles-salud",
+      "company": "Los Ángeles de la Salud",
+      "sector": "Centro Médico de Especialidades",
+      "location": "Huelva / Punta Umbría",
+      "email": "info@losangelesdelasalud.es",
+      "phone": "",
+      "web": "www.losangelesdelasalud.es",
+      "notes": "Web en WordPress con Elementor. Reservas online. Solo Facebook, sin Instagram. 40+ años. Title dice 'Home - Los Ángeles de la Salud' (mal SEO). Yoast instalado pero mal configurado.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Vuestro título en Google empieza por 'Home'",
+          "body": "Hola,\n\nHe buscado centros médicos en Huelva y he entrado en losangelesdelasalud.es. Lo primero que he visto: vuestro título en Google dice \"Home - Los Ángeles de la Salud\". Ese \"Home\" os está quitando posiciones porque Google no sabe que sois un centro médico de especialidades en Huelva.\n\nTenéis Yoast SEO instalado pero sin configurar bien — es como tener un Ferrari aparcado en el garaje. Con 40 años de historia como los vuestros, deberíais estar los primeros en Google.\n\nSomos BRUTAL., agencia de Huelva. ¿Hablamos?",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:30:32.302Z"
+        },
+        {
+          "day": 3,
+          "subject": "Dos centros, cero Instagram",
+          "body": "Hola de nuevo,\n\nCon dos ubicaciones (Huelva y Punta Umbría) y más de 40 años, tenéis una marca potentísima. Pero solo estáis en Facebook.\n\nInstagram es donde están los pacientes de 25 a 55 años buscando especialistas. Con contenido sobre vuestras especialidades, consejos de salud y presentación del equipo, podríais duplicar vuestras consultas. Y con dos centros, el contenido se multiplica.\n\n¿Puedo enseñaros ejemplos de lo que hacemos con otros centros de salud?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Vuestra meta description necesita ayuda",
+          "body": "Hola,\n\nÚltimo apunte: cuando alguien os busca en Google, la descripción que aparece debajo de vuestro nombre es un texto larguísimo cortado que empieza con \"Los Ángeles de la Salud Huelva AC Servicios Médicos Punta Umbría Centros Médicos de Especialidades...\". Es inlegible.\n\nEsa descripción es vuestra primera impresión para cada paciente que busca en Google. Optimizarla bien os puede subir el porcentaje de clics un 30%.\n\nSi queréis, os hago una revisión rápida y gratuita de todo el SEO de la web. Estamos aquí al lado.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "antonio"
+    },
+    {
+      "id": "clinica-picornell",
+      "company": "Clínica Picornell",
+      "sector": "Medicina Estética y General",
+      "location": "Huelva",
+      "email": "clinicapicornell@gmail.com",
+      "phone": "959 26 23 14",
+      "web": "clinicapicornell.es",
+      "notes": "WordPress + Elementor con Rank Math. Meta description genérica. Título dice 'Inicio'. Tiene Facebook e Instagram pero sin enlace visible. Blog poco activo. URLs HTTP (contenido mixto).",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "\"Bienvenido a Clínica Picornell\" — ¿esa es vuestra carta de presentación en Google?",
+          "body": "Hola,\n\nHe estado mirando clinicapicornell.es y he visto algo que os está costando pacientes: vuestra meta description en Google dice literalmente \"Bienvenido a Clínica Picornell\". Eso es lo primero que lee alguien que busca medicina estética en Huelva — y no dice nada sobre lo que hacéis.\n\nTambién el título de la home pone \"Inicio\" en vez de algo como \"Medicina Estética en Huelva\". Son detalles pequeños que cambian mucho el número de clics.\n\nSi os interesa, os preparo un análisis rápido sin compromiso de cómo mejorar vuestra visibilidad en Google.",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:30:37.497Z"
+        },
+        {
+          "day": 3,
+          "subject": "Vuestro blog tiene potencial (pero no lo estáis aprovechando)",
+          "body": "Hola de nuevo,\n\nVi que tenéis sección de blog en la web, pero parece que no está muy activa. En medicina estética, un artículo bien posicionado sobre \"ácido hialurónico Huelva\" o \"bótox precio\" puede traer pacientes cada mes en piloto automático.\n\nTambién he notado que algunas fuentes de la web cargan por HTTP en vez de HTTPS — eso penaliza en Google y puede dar aviso de \"sitio no seguro\" a pacientes.\n\n¿Os cuento cómo lo haríamos? Son 15 minutos.",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Último mensaje — no quiero ser pesado",
+          "body": "Hola,\n\nNo quiero llenar la bandeja. Solo quería deciros que hemos ayudado a clínicas de Huelva a multiplicar sus consultas desde Google con cambios que se hacen en una semana.\n\nSi en algún momento os interesa, aquí estamos. Si no, cero drama.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "antonio"
+    },
+    {
+      "id": "clinica-belesia",
+      "company": "Clínica Belesia",
+      "sector": "Medicina Estética",
+      "location": "Huelva",
+      "email": "clinicabelesia@gmail.com",
+      "phone": "",
+      "web": "clinicabelesia.es",
+      "notes": "WordPress + Elementor + Yoast + WooCommerce (tienda online). Instagram @clinicabelesia activo. Web actualizada ene 2026. No parece tener blog activo.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Tenéis tienda online y nadie la conoce — se puede cambiar",
+          "body": "Hola,\n\nHe estado viendo clinicabelesia.es y me ha llamado la atención que tenéis tienda online con WooCommerce. La mayoría de clínicas estéticas de Huelva no tienen eso — es una ventaja enorme.\n\nPero una tienda sin tráfico es como una tienda física en un callejón sin salida. ¿Estáis haciendo algo para llevar gente ahí? Con una estrategia de contenido en Instagram + campañas de Meta Ads segmentadas en Huelva, eso puede dar un salto grande.\n\nSi queréis, os cuento cómo en 15 minutos.",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:30:42.715Z"
+        },
+        {
+          "day": 3,
+          "subject": "Vuestro Instagram tiene base, pero le falta estrategia",
+          "body": "Hola de nuevo,\n\nHe mirado @clinicabelesia en Instagram. Tenéis presencia, pero el contenido puede ir mucho más allá: antes/después, testimonios en vídeo, reels educativos sobre tratamientos... eso es lo que convierte seguidores en pacientes.\n\nCon un calendario de contenido bien hecho y campañas locales, se nota la diferencia en semanas. Es lo que hacemos en BRUTAL. para negocios de Huelva.\n\n¿Hablamos?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Último intento — luego no molesto más",
+          "body": "Hola,\n\nSolo quería cerrar el hilo. Tenéis una web sólida y tienda online — eso es más de lo que tiene el 90% de clínicas de Huelva. Solo falta la estrategia para llevar tráfico.\n\nSi en algún momento os interesa explorar cómo, escribidme. Si no, sin problema.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "xino"
+    },
+    {
+      "id": "clinica-ferreiros",
+      "company": "Centro Médico Estético Ferreirós",
+      "sector": "Medicina Estética y Cirugía",
+      "location": "Huelva",
+      "email": "estetica.ferreiros.ef@gmail.com",
+      "phone": "679 38 85 60",
+      "web": "centromedicoesteticoferreiros.webnode.es",
+      "notes": "Web en Webnode (builder gratuito). clinicaferreiros.es no carga. Web básica con publicidad del builder. Certificación en estética oncológica (diferenciador). Desde 2015.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Vuestra web no os hace justicia (y os está costando pacientes)",
+          "body": "Hola,\n\nHe intentado entrar en clinicaferreiros.es y no carga. La web que aparece en Google es un subdominio de Webnode con publicidad del builder. Para una clínica que es pionera en Microblading en Huelva y tiene certificación en estética oncológica, eso no os representa.\n\nUn paciente que busca \"medicina estética Huelva\" ve eso y se va a la competencia. Hoy se puede tener una web profesional y optimizada para Google en muy poco tiempo.\n\n¿Os interesa saber cómo? Sin compromiso.",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:30:47.902Z"
+        },
+        {
+          "day": 3,
+          "subject": "Sois el único centro con estética oncológica en Huelva — ¿la gente lo sabe?",
+          "body": "Hola de nuevo,\n\nLo de la certificación en estética oncológica es un diferenciador brutal. Pero si no aparecéis en Google cuando alguien busca eso, es como si no existiera.\n\nCon una web propia (sin Webnode), SEO local bien hecho y contenido en redes, podéis posicionaros como referencia en Huelva. Es exactamente lo que hacemos.\n\n¿15 minutos para contároslo?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "No quiero ser pesado — último mensaje",
+          "body": "Hola,\n\nSolo quería cerrar el hilo. Si en algún momento queréis una web que refleje lo que realmente sois como clínica y que os traiga pacientes desde Google, aquí estamos.\n\nNada más. Mucho ánimo con el trabajo que hacéis.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "jose"
+    },
+    {
+      "id": "hydria-belleza-salud",
+      "company": "Hydria Belleza y Salud",
+      "sector": "Centro de Estética y Bienestar",
+      "location": "Huelva",
+      "email": "info@hydria.es",
+      "phone": "659 33 89 63",
+      "web": "hydria.es",
+      "notes": "WordPress + Divi. Tiene blog y TikTok. Productos exclusivos. No tiene meta description en home. Tratamientos para hombres como diferenciador.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Hydria no aparece con meta description en Google — fácil de arreglar",
+          "body": "Hola,\n\nHe buscado hydria.es en Google y he visto que la home no tiene meta description propia — Google muestra un fragmento aleatorio de la página. Eso significa que no controláis qué lee la gente antes de decidir si hace clic o no.\n\nTambién vi que tenéis blog y TikTok — eso es genial. Pero sin una base SEO sólida, todo ese contenido rinde a medias. Son ajustes técnicos que se hacen rápido.\n\n¿Os interesa que os lo cuente?",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:30:53.124Z"
+        },
+        {
+          "day": 3,
+          "subject": "\"Tratamientos para hombres\" — tenéis un nicho que nadie explota en Huelva",
+          "body": "Hola de nuevo,\n\nHe visto que ofrecéis tratamientos especializados para hombres. Eso es un nicho enorme que casi ningún centro de Huelva trabaja en digital. Con contenido específico para ese público en redes + SEO local, podéis ser los primeros en Google para esas búsquedas.\n\nEs el tipo de estrategia que damos en BRUTAL. — encontrar el hueco y posicionar ahí.\n\n¿Hablamos 15 minutos?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Cierro el hilo — sin drama",
+          "body": "Hola,\n\nÚltimo mensaje, prometido. Tenéis un centro muy completo con productos propios y un diferenciador claro con tratamientos masculinos. Solo falta que más gente en Huelva lo sepa.\n\nSi en algún momento queréis trabajar la parte digital con alguien de aquí, escribidme. Si no, todo bien.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "xino"
+    },
+    {
+      "id": "clinica-cibeles",
+      "company": "Clínica Cibeles",
+      "sector": "Medicina Estética y Depilación Láser",
+      "location": "Huelva",
+      "email": "info@clinicacibeles.es",
+      "phone": "959 49 92 23",
+      "web": "clinicacibeles.es",
+      "notes": "WordPress con LiteSpeed. CC Holea. Facebook e Instagram @cibelesclinica. Blog activo. Facebook URL sin personalizar.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Vuestro artículo sobre diatermia podría traer pacientes — pero no está posicionado",
+          "body": "Hola,\n\nHe leído vuestro artículo sobre diatermia en clinicacibeles.es. Está bien escrito, pero no aparece en las primeras posiciones de Google para \"diatermia Huelva\". Con unos ajustes de SEO on-page y una estrategia de contenido, ese artículo puede ser una máquina de captar pacientes.\n\nTenéis blog activo — eso ya es más que la mayoría. Solo falta la estrategia detrás.\n\n¿Os cuento cómo en 15 minutos?",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:30:58.349Z"
+        },
+        {
+          "day": 3,
+          "subject": "Vuestra página de Facebook tiene URL sin personalizar",
+          "body": "Hola de nuevo,\n\nDetalle rápido: vuestra página de Facebook usa una URL con números (profile.php?id=61563486562245) en vez de un nombre personalizado tipo facebook.com/clinicacibeles. Eso afecta a credibilidad y SEO social.\n\nSon pequeñas cosas que sumadas marcan la diferencia entre una presencia digital que funciona y una que solo está ahí. Nosotros nos encargamos de todo eso.\n\n¿Hablamos?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Último mensaje — no quiero ser pesado",
+          "body": "Hola,\n\nCierro el hilo. Estáis en buena posición con la ubicación en Holea y el blog activo. Solo falta optimizar lo digital para convertir visibilidad en citas.\n\nSi os interesa en algún momento, aquí estamos. Si no, sin problema ninguno.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "jose"
+    },
+    {
+      "id": "casado-conde-dental",
+      "company": "Casado Conde Dental",
+      "sector": "Clínica Dental",
+      "location": "Huelva",
+      "email": "info@casadocondedental.es",
+      "phone": "629 63 58 75",
+      "web": "casadocondedental.es",
+      "notes": "Web moderna con Astro v5.10. lang='en' en vez de 'es' (error). Instagram @casadocondedental. Single-page sin blog. Meta description muy corta.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Vuestra web le dice a Google que está en inglés (y eso os perjudica)",
+          "body": "Hola,\n\nHe mirado casadocondedental.es — es una web bonita, moderna, bien hecha. Pero tiene un error técnico que os está costando posiciones en Google: el código HTML dice lang=\"en\" (inglés) en vez de lang=\"es\". Google piensa que vuestra web está en inglés y no la muestra bien a gente que busca en español.\n\nEs un cambio de 2 segundos, pero hay más cosas que se pueden mejorar para traer pacientes desde Google. ¿Os interesa?",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:31:03.918Z"
+        },
+        {
+          "day": 3,
+          "subject": "Una sola página no posiciona — os falta contenido",
+          "body": "Hola de nuevo,\n\nVuestra web es una single-page — todo en una sola pantalla. Eso queda limpio, pero para Google es un problema: no tenéis páginas individuales de implantes, ortodoncia, cirugía oral... Cada servicio debería ser una página que posicione para esa búsqueda.\n\nTampoco tenéis blog. Un artículo sobre \"cuánto cuesta un implante en Huelva\" puede traer pacientes cada mes. Es contenido que trabaja por vosotros 24/7.\n\n¿Hablamos 15 minutos?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Cierro el hilo — última",
+          "body": "Hola,\n\nÚltimo mensaje. Tenéis una marca moderna y un equipo que transmite confianza — eso es difícil de conseguir. Solo falta que Google os muestre a la gente que busca dentista en Huelva.\n\nSi en algún momento queréis trabajar eso, aquí estamos. Si no, mucho ánimo.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "xino"
+    },
+    {
+      "id": "clinica-del-carmen-huelva",
+      "company": "Clínica del Carmen Huelva",
+      "sector": "Centro de Especialidades Médicas",
+      "location": "Huelva",
+      "email": "info@clinicadelcarmenhuelva.com",
+      "phone": "959 542 018",
+      "web": "clinicadelcarmenhuelva.com",
+      "notes": "WordPress + Divi, sin meta description, solo Facebook, sin blog activo. Muchas especialidades pero mal posicionadas.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Vuestra web no aparece cuando busco \"especialistas médicos Huelva\"",
+          "body": "Hola,\n\nHe estado mirando clinicadelcarmenhuelva.com y vi que tenéis un montón de especialidades médicas — cirugía, dermatología, traumatología... Pero la web no tiene meta description ni blog, así que Google prácticamente no la muestra cuando alguien busca \"especialista médico en Huelva\".\n\nTambién vi que solo tenéis Facebook. En salud, Instagram está siendo clave para captar pacientes jóvenes y generar confianza.\n\nNosotros trabajamos con clínicas en Huelva exactamente en esto: SEO local + contenido en redes que llena agendas. ¿Tendría sentido una llamada de 15 minutos esta semana?",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:31:09.143Z"
+        },
+        {
+          "day": 3,
+          "subject": "Un dato rápido sobre vuestra web",
+          "body": "Hola de nuevo,\n\nSolo un dato: vuestra web no tiene meta description configurada. Eso significa que Google decide qué texto mostrar en los resultados — y normalmente elige mal. Es algo que se arregla en 10 minutos pero que puede cambiar el CTR por completo.\n\nSi os interesa, puedo enviaros un mini análisis gratuito de cómo está posicionada la clínica frente a la competencia en Huelva.",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Último mensaje (prometido)",
+          "body": "Hola,\n\nNo quiero ser pesado — solo quería saber si os interesa ver cómo otras clínicas de Huelva están usando SEO local y redes sociales para llenar consultas. Tenemos casos reales del sector salud.\n\nSi no es buen momento, sin problema. Pero si os pica la curiosidad, respondedme y os mando info sin compromiso.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "jose"
+    },
+    {
+      "id": "doctora-prieto-3j-verkomed",
+      "company": "Dra. Prieto / Clínica 3J Verkomed",
+      "sector": "Cirugía Estética",
+      "location": "Huelva / Sevilla",
+      "email": "consulta@doctoraprieto.es",
+      "phone": "671 443 170",
+      "web": "doctoraprieto.es",
+      "notes": "WordPress con tema antiguo (IE7). Yoast SEO y blog activo (marzo 2026). Sin redes sociales visibles. 20+ años experiencia.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Vuestra web tiene blog pero nadie la ve en Instagram",
+          "body": "Hola,\n\nHe estado mirando doctoraprieto.es — vi que tenéis un blog activo con posts sobre VASERlipo y tendencias en cirugía estética 2026. Buen contenido. Pero me sorprendió que no haya enlaces a Instagram ni a ninguna red social desde la web.\n\nEn cirugía estética, Instagram es donde se toman las decisiones. El 70% de las consultas en estética empiezan ahí. Ese blog que ya escribís podría convertirse en contenido para redes que genera citas directas.\n\nNosotros ayudamos a clínicas de estética a conectar su contenido web con una estrategia en redes que convierte. ¿Os interesaría una llamada rápida?",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:31:14.356Z"
+        },
+        {
+          "day": 3,
+          "subject": "Sobre el diseño de doctoraprieto.es",
+          "body": "Hola,\n\nOtro detalle que vi: vuestra web usa un tema de WordPress con compatibilidad para Internet Explorer 7. Eso significa que el diseño tiene al menos 8 años. En cirugía estética, la web ES la primera impresión — y ahora mismo no transmite la calidad del trabajo de la Dra. Prieto.\n\nUna web moderna + una estrategia de contenido en redes puede cambiar completamente la percepción de una clínica. ¿Merece la pena hablarlo 15 minutos?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Última idea para la clínica",
+          "body": "Hola,\n\nEntiendo que estáis ocupados con consultas. Solo una idea rápida: los artículos de vuestro blog (como el de VASERlipo) podrían convertirse en 10-15 posts de Instagram y Reels que generen consultas directas, sin escribir nada nuevo.\n\nSi algún día queréis explorar eso, aquí estamos. Sin compromiso.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "xino"
+    },
+    {
+      "id": "ndsalud",
+      "company": "NDsalud",
+      "sector": "Nutrición Clínica y Deportiva",
+      "location": "Huelva / Trigueros",
+      "email": "info@ndsalud.es",
+      "phone": "959 306 665 / 681 615 697",
+      "web": "ndsalud.es",
+      "notes": "WordPress + Elementor + Astra. Redes activas: Instagram @pabloa_ndsalud. Dos sedes. Sin blog. Sin testimonios ni citas online.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Una idea para NDsalud que puede llenar la agenda",
+          "body": "Hola Pablo,\n\nHe estado mirando ndsalud.es y vuestras redes. Tenéis buena presencia en Instagram con @pabloa_ndsalud, pero la web no tiene blog ni testimonios de pacientes. En nutrición, el contenido educativo (recetas, mitos, casos de éxito) es lo que más convierte en Google.\n\nSin un blog optimizado, estáis perdiendo todas las búsquedas tipo \"nutricionista deportivo Huelva\" o \"dietista en Trigueros\". Eso se puede arreglar con una estrategia de contenido SEO que trabaje junto a lo que ya hacéis en redes.\n\n¿Te interesa que lo miremos juntos en una llamada de 15 min?",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:31:19.554Z"
+        },
+        {
+          "day": 3,
+          "subject": "Sobre las búsquedas en Google para nutricionistas en Huelva",
+          "body": "Hola Pablo,\n\nUn dato: cuando alguien busca \"nutricionista Huelva\" en Google, los primeros resultados son directorios como Doctoralia y Páginas Amarillas. Vuestra web no aparece. Con un blog de 2-3 artículos al mes optimizados para SEO, podríais posicionaros por encima de esos directorios en 3-4 meses.\n\nEs exactamente lo que hacemos con profesionales de salud en la zona. ¿Merece 15 minutos de conversación?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Último mensaje, Pablo",
+          "body": "Hola,\n\nSé que como profesional de la nutrición tienes poco tiempo para marketing. Justo por eso existimos — para que vosotros os centréis en los pacientes y nosotros en que os encuentren.\n\nSi en algún momento quieres explorar cómo llevar más pacientes a las dos sedes (Huelva y Trigueros), aquí estamos. Sin compromiso.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "jose"
+    },
+    {
+      "id": "rosa-lopez-monis",
+      "company": "Rosa López Monís",
+      "sector": "Nutrición y Biología Molecular",
+      "location": "Corrales (Aljaraque), Huelva",
+      "email": "info@rosalopezmonis.com",
+      "phone": "",
+      "web": "rosalopezmonis.com",
+      "notes": "Squarespace. Instagram. Especializada en microbiota, nutrigenética, TEA, Lyme, nutrición oncológica. Sin blog. SEO limitado por Squarespace.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Tu especialización en nutrigenética merece más visibilidad",
+          "body": "Hola Rosa,\n\nHe estado mirando rosalopezmonis.com — tienes un perfil profesional impresionante: bióloga molecular, especializada en microbiota, nutrigenética, TEA, Lyme... Pero cuando busco \"nutricionista especializada microbiota Huelva\" en Google, tu web no aparece.\n\nSquarespace es bonito pero tiene limitaciones serias de SEO. Con tu nivel de especialización, podrías estar captando pacientes de toda Andalucía que buscan exactamente lo que tú ofreces. Solo necesitas que Google te encuentre.\n\n¿Te interesa una llamada de 15 minutos para ver cómo?",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:31:24.773Z"
+        },
+        {
+          "day": 3,
+          "subject": "Contenido que ya tienes y no estás aprovechando",
+          "body": "Hola Rosa,\n\nVi que estás en Instagram y que tu especialización cubre temas que la gente busca constantemente: microbiota, nutrigenética, nutrición oncológica. Cada uno de esos temas podría ser un artículo de blog que te posicione en Google.\n\nCon 2-3 artículos al mes, podrías pasar de depender de Doctoralia a que los pacientes te encuentren directamente. Y el contenido que ya compartes en redes se puede reciclar para eso.\n\n¿Lo hablamos?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Sin compromiso, Rosa",
+          "body": "Hola,\n\nÚltimo mensaje — no quiero ser pesado. Solo decirte que profesionales con tu nivel de especialización son los que más se benefician del marketing digital bien hecho, porque la competencia no está haciendo nada.\n\nSi algún día quieres explorar cómo posicionarte como referente en nutrigenética y microbiota en Andalucía, escríbeme. Aquí estamos.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "xino"
+    },
+    {
+      "id": "altare-clinicas",
+      "company": "Altare Clínicas",
+      "sector": "Centro Médico de Alta Resolución",
+      "location": "Corrales (Aljaraque), Huelva",
+      "email": "direccion@altareclinicas.es",
+      "phone": "959 281 819",
+      "web": "altareclinicas.es",
+      "notes": "WordPress + Oxygen Builder + WP Rocket. Diseño moderno. Instagram y Facebook. Rank Math sin meta description en home. Title genérico 'Home - Altare'. Citas online con iGaleno. 30+ especialidades.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "El título de vuestra home en Google dice solo \"Home - Altare\"",
+          "body": "Hola,\n\nHe estado mirando altareclinicas.es — tenéis una web moderna, citas online con iGaleno, más de 30 especialidades... Pero hay un detalle importante: el título de vuestra página principal en Google aparece como \"Home - Altare\". Sin meta description. Eso significa que Google no sabe qué mostrar cuando alguien busca \"centro médico Huelva\" o \"clínica alta resolución Aljaraque\".\n\nTenéis Rank Math instalado — es cuestión de configurarlo bien. Pero más allá de eso, hay una oportunidad enorme de posicionaros como EL centro médico privado de referencia en Huelva con una estrategia SEO seria.\n\n¿Os interesa hablarlo?",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:31:29.982Z"
+        },
+        {
+          "day": 3,
+          "subject": "Vuestra sección de Actualidad podría hacer mucho más",
+          "body": "Hola,\n\nOtra cosa que vi: tenéis una sección de Actualidad en la web (un blog básicamente). Eso ya es más de lo que tienen la mayoría de clínicas en Huelva. Pero si ese contenido no está optimizado para SEO, solo lo ve quien ya os conoce.\n\nCon los artículos correctos, podríais aparecer cuando alguien busca \"cardiólogo en Huelva\" o \"ecografía privada Aljaraque\". Cada artículo es una puerta de entrada de pacientes nuevos.\n\n¿Merece 15 minutos hablar de cómo sacarle partido?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Última nota sobre Altare",
+          "body": "Hola,\n\nEntiendo que dirigir un centro con 30+ especialidades deja poco margen para pensar en marketing. Pero justo por eso tiene sentido delegarlo en alguien que entienda el sector salud y la zona.\n\nSi en algún momento queréis explorar cómo llenar más consultas a través de Google y redes, aquí estamos. Trabajamos con clínicas en Huelva y conocemos el mercado.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "jose"
+    },
+    {
+      "id": "clinica-dental-laura-vazquez",
+      "company": "Clínica Dental Laura Vázquez",
+      "sector": "Clínica Dental",
+      "location": "Corrales (Aljaraque), Huelva",
+      "email": "info@clinicadentallauravazquez.es",
+      "phone": "",
+      "web": "clinicadentallauravazquez.es",
+      "notes": "WordPress + Divi. Página muy pesada (491KB HTML). Sin redes sociales visibles. Blog con contenido de implantes. Buenas reseñas. Carga lenta en móvil.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Vuestra web pesa casi medio mega (y eso espanta pacientes)",
+          "body": "Hola Laura,\n\nHe estado mirando clinicadentallauravazquez.es — buen contenido sobre implantes y ortodoncia, y las reseñas de pacientes son geniales. Pero hay un problema técnico: la página principal pesa casi 500KB solo en HTML. Eso hace que cargue lento, especialmente en móvil, y Google penaliza eso en el posicionamiento.\n\nAdemás, no vi enlaces a Instagram ni Facebook desde la web. En dental, las redes sociales (especialmente los antes/después en Instagram) son una máquina de captar pacientes.\n\n¿Te interesa que hablemos de cómo optimizar esto en una llamada de 15 min?",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:31:35.306Z"
+        },
+        {
+          "day": 3,
+          "subject": "\"Dentista en Corrales\" — ¿apareces en Google?",
+          "body": "Hola Laura,\n\nCuando alguien busca \"dentista en Corrales\" o \"dentista Aljaraque\" en Google, los primeros resultados suelen ser directorios genéricos. Con un poco de SEO local bien hecho, tu clínica podría aparecer por encima de todos ellos.\n\nTienes un blog con artículos sobre implantes — eso ya es una ventaja. Solo falta una estrategia que conecte ese contenido con las búsquedas que hacen los vecinos de la zona.\n\n¿Lo hablamos?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Último mensaje, Laura",
+          "body": "Hola,\n\nNo quiero insistir más — solo dejarte un dato: en clínicas dentales, más del 60% de los pacientes nuevos buscan primero en Google antes de pedir cita. Si tu web carga lento y no está optimizada para SEO local, estás perdiendo pacientes que van a la competencia.\n\nSi algún día quieres revisar esto, aquí estamos. Trabajamos con clínicas de la zona y sabemos qué funciona.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "xino"
+    },
+    {
+      "id": "momac-peluqueros",
+      "company": "Momac Peluqueros",
+      "sector": "Peluquería",
+      "location": "Bellavista, Aljaraque (Huelva)",
+      "email": "info@momacpeluqueros.com",
+      "phone": "959 31 91 58",
+      "web": "www.momacpeluqueros.com",
+      "notes": "Web funcional con tienda online. Instagram 1.157 seguidores. Reservas por Fresha. Rating 4.8-4.9. Fundado 2019.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Vi vuestro Instagram — una idea rápida",
+          "body": "Hola Moisés y Macarena,\n\nSoy José, de BRUTAL., una agencia de marketing aquí en Huelva. Estuve mirando vuestro Instagram (@momacpeluqueros) y se nota que cuidáis mucho el trabajo — 1.100 seguidores con un 4.9 en Google no es casualidad.\n\nPero veo que podríais estar sacándole mucho más partido a redes: contenido tipo antes/después, reels de transformaciones, campañas para llenar huecos entre semana... Cosas que funcionan muy bien en peluquerías como la vuestra.\n\n¿Os interesaría que os cuente cómo lo hacemos? Sin compromiso, 15 minutos.",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:31:40.631Z"
+        },
+        {
+          "day": 3,
+          "subject": "Dato rápido sobre peluquerías en redes",
+          "body": "Hola de nuevo,\n\nSolo un dato: las peluquerías que publican reels de transformaciones 3 veces por semana multiplican x3 las solicitudes de cita en 2 meses. Lo hemos visto con otros negocios locales de Huelva.\n\nCon vuestras valoraciones y la calidad de trabajo que mostráis, el contenido se haría prácticamente solo. Solo falta una estrategia detrás.\n\n¿Hablamos esta semana?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Último mensaje — sin agobios",
+          "body": "Hola Moisés y Macarena,\n\nNo quiero ser pesado, así que este es mi último email. Solo quería deciros que si en algún momento queréis darle un empujón a vuestra presencia online — más clientes nuevos, más visibilidad en Bellavista y Huelva — aquí estamos.\n\nSin compromiso.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "jose"
+    },
+    {
+      "id": "clinica-dental-nuevo-portil",
+      "company": "Clínica Dental Nuevo Portil",
+      "sector": "Clínica Dental",
+      "location": "El Portil, Punta Umbría (Huelva)",
+      "email": "info@clinicadentalnuevoportil.es",
+      "phone": "959 528 219 / 644 717 374",
+      "web": "www.clinicadentalnuevoportil.es",
+      "notes": "Web MUY anticuada — IONOS MyWebsite. Meta description vacía. Sin blog. Sin redes. No responsive. SEO desastroso.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Vuestra web — os lo digo con cariño",
+          "body": "Hola,\n\nSoy José, de BRUTAL., agencia de marketing en Huelva. He estado mirando vuestra web y quiero ser directo: la meta descripción de Google está vacía, el diseño no se adapta al móvil y no aparecéis bien en búsquedas tipo \"dentista El Portil\" o \"clínica dental Punta Umbría\".\n\nEso significa que estáis perdiendo pacientes que os buscan desde el móvil — que hoy es el 80% de la gente. La buena noticia es que tiene solución rápida.\n\n¿Os interesa que os enseñe qué haríamos? 15 minutos, sin compromiso.",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:31:45.856Z"
+        },
+        {
+          "day": 3,
+          "subject": "Un ejemplo concreto para vuestra clínica",
+          "body": "Hola,\n\nOs pongo un ejemplo: si alguien busca \"dentista en El Portil\" en Google ahora mismo, vuestra web no aparece bien porque la meta descripción está literalmente vacía y Google no sabe qué mostrar sobre vosotros.\n\nVuestros competidores en Punta Umbría ya tienen webs modernas con reserva online y blog. No es por asustar, pero cada mes que pasa son pacientes que se van a la competencia.\n\n¿Quedamos 15 minutos esta semana?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Último aviso — luego no insisto más",
+          "body": "Hola,\n\nÚltimo email, prometido. Solo quería dejaros claro que lo que necesitáis no es complicado ni caro: una web moderna, que se vea bien en el móvil, con reserva online y que aparezca cuando la gente busque dentista en vuestra zona.\n\nSi en algún momento os interesa, escribidme sin compromiso. Estamos aquí al lado, en Huelva.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "xino"
+    },
+    {
+      "id": "dental-umbria",
+      "company": "Dental Umbría",
+      "sector": "Clínica Dental",
+      "location": "Punta Umbría (Huelva)",
+      "email": "cristo@dental-umbria.es",
+      "phone": "959 310 020",
+      "web": "www.dental-umbria.es",
+      "notes": "Web caída o muy lenta. Google Business 4.4 estrellas. Sin redes sociales.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Cristo — vuestra web no carga",
+          "body": "Hola Cristo,\n\nSoy José, de BRUTAL., agencia de marketing en Huelva. He intentado entrar en dental-umbria.es varias veces y la web no carga correctamente. Si a mí me pasa, le pasa a cualquier paciente que os busque.\n\nTenéis un 4.4 en Google con buenas reseñas — eso es oro. Pero sin una web que funcione, estáis regalando pacientes a la competencia en Punta Umbría. Os puedo ayudar a solucionarlo rápido.\n\n¿Hablamos 15 minutos esta semana?",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:31:51.045Z"
+        },
+        {
+          "day": 3,
+          "subject": "Vuestras reseñas son buenas — pero nadie las ve",
+          "body": "Hola Cristo,\n\nTenéis un 4.4 en Google, que está muy bien. Pero cuando alguien busca \"dentista Punta Umbría\", vuestra web no aparece o no carga. Y no tenéis redes sociales para compensar.\n\nResultado: los pacientes que os buscan online acaban en Dentalium o Dental Company. Con una web que funcione y un poco de SEO local, eso cambia en semanas.\n\n¿Os cuento cómo?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Último email — sin presión",
+          "body": "Hola Cristo,\n\nNo quiero ser pesado. Solo quería que supierais que arreglar vuestra presencia online no es tan complicado: web nueva que cargue bien, Google Business optimizado y algo de contenido en redes. Con eso ya notaríais la diferencia.\n\nSi os interesa en algún momento, aquí estamos. Somos de Huelva y conocemos bien la zona.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "jose"
+    },
+    {
+      "id": "policlinica-dentalium",
+      "company": "Policlínica Dentalium",
+      "sector": "Clínica Dental",
+      "location": "Punta Umbría (Huelva)",
+      "email": "info@policlinicadentalium.com",
+      "phone": "652 67 76 10",
+      "web": "www.policlinicadentalium.com",
+      "notes": "Web con DudaMobile. Canonical HTTP (error SEO). Facebook activo. Sin blog.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Un detalle técnico en vuestra web",
+          "body": "Hola,\n\nSoy José, de BRUTAL., agencia de marketing en Huelva. He revisado vuestra web de policlinicadentalium.com y he visto un par de cosas: la URL canónica apunta a HTTP en vez de HTTPS (eso penaliza en Google) y no tenéis blog ni contenido que os posicione para búsquedas tipo \"dentista Punta Umbría\".\n\nTenéis Google Tag Manager instalado, lo cual está bien, pero sin una estrategia detrás no sirve de mucho. ¿Os interesa que os cuente qué haríamos?",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:31:56.399Z"
+        },
+        {
+          "day": 3,
+          "subject": "\"Dentista Punta Umbría\" — ¿aparecéis?",
+          "body": "Hola de nuevo,\n\nPregunta directa: si alguien busca \"dentista Punta Umbría\" en Google, ¿aparecéis en los primeros resultados? En vuestra zona hay al menos 3 clínicas compitiendo por esas búsquedas.\n\nCon un blog con artículos sobre salud dental, un Google Business optimizado y algo de SEO técnico (como corregir el canonical HTTP), podríais estar arriba en pocas semanas.\n\n¿Hablamos?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Mi último email — sin agobios",
+          "body": "Hola,\n\nÚltimo mensaje, prometido. Si en algún momento queréis mejorar vuestra visibilidad online en Punta Umbría — más pacientes nuevos, mejor posicionamiento en Google, contenido que trabaje para vosotros — aquí estamos.\n\nSomos de Huelva y trabajamos con negocios locales como el vuestro. Sin compromiso.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "xino"
+    },
+    {
+      "id": "clinica-gomez-palacios",
+      "company": "Clínica Dental María Gómez Palacios",
+      "sector": "Clínica Dental",
+      "location": "Cartaya (Huelva)",
+      "email": "info@gomezpalaciosdental.es",
+      "phone": "722 212 378 / 959 391 561",
+      "web": "gomezpalaciosdental.es",
+      "notes": "WordPress con Yoast SEO (desactualizado). Blog de salud dental. Última actualización septiembre 2020. Página COVID-19 aún activa.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Vuestra web lleva sin actualizarse desde 2020",
+          "body": "Hola María,\n\nSoy José, de BRUTAL., agencia de marketing en Huelva. He revisado gomezpalaciosdental.es y veo que tenéis buena base: blog de salud dental, Yoast SEO, meta descriptions decentes. Pero el último contenido es de septiembre de 2020 — hace más de 5 años.\n\nGoogle penaliza las webs que no se actualizan. Y seguís teniendo la página de COVID-19 activa, lo que da sensación de abandono. Con un poco de mantenimiento, podríais estar captando pacientes que ahora se os escapan.\n\n¿Hablamos 15 minutos?",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:32:01.610Z"
+        },
+        {
+          "day": 3,
+          "subject": "Vuestro blog podría traeros pacientes — pero está parado",
+          "body": "Hola María,\n\nTenéis un blog de salud dental en vuestra web, que es algo que la mayoría de clínicas en Cartaya no tienen. Pero si no publicáis nada desde 2020, Google deja de consideraros relevantes.\n\nCon 2 artículos al mes sobre temas que la gente busca (blanqueamiento, implantes, ortodoncia infantil...), podríais posicionaros como la referencia dental en Cartaya. Y eso se traduce en citas.\n\n¿Os interesa que os cuente cómo lo haríamos?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Último email — quedo a vuestra disposición",
+          "body": "Hola María,\n\nNo insisto más. Solo quería que supierais que tenéis una buena base online (web con blog, SEO, Facebook), pero lleva 5 años sin tocarse y eso se nota. Reactivarlo no es complicado.\n\nSi en algún momento queréis darle vida a vuestra presencia digital, escribidme. Estamos en Huelva, cerca de vosotros.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "jose"
+    },
+    {
+      "id": "odonsalud-cartaya",
+      "company": "Clínica Dental Odonsalud Cartaya",
+      "sector": "Clínica Dental",
+      "location": "Cartaya (Huelva)",
+      "email": "odonsaludcartaya@outlook.es",
+      "phone": "695 45 46 08",
+      "web": "odonsaludcartaya.es",
+      "notes": "WordPress tema Hestia (básico). Rating 3.9 en Google. Email Outlook. Competencia directa con Gómez Palacios.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "3.9 en Google — se puede mejorar fácil",
+          "body": "Hola,\n\nSoy José, de BRUTAL., agencia de marketing en Huelva. He visto que Odonsalud Cartaya tiene un 3.9 en Google. No está mal, pero vuestra competencia en Cartaya tiene mejor nota y eso influye en quién elige clínica.\n\nHay estrategias sencillas para conseguir más reseñas positivas de pacientes satisfechos y subir esa nota. También he visto que vuestra web usa un tema WordPress básico y el email es de Outlook — pequeños detalles que restan profesionalidad.\n\n¿Os cuento qué haríamos? 15 minutos, sin compromiso.",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:32:06.800Z"
+        },
+        {
+          "day": 3,
+          "subject": "Cartaya tiene 2 clínicas dentales — ¿cuál elige Google?",
+          "body": "Hola de nuevo,\n\nEn Cartaya hay pocas clínicas dentales, así que posicionarse en Google es más fácil que en una ciudad grande. Pero hay que trabajarlo: blog con contenido de salud dental, Google Business optimizado, reseñas gestionadas.\n\nVuestra competencia (Gómez Palacios) tiene blog y mejor SEO. La buena noticia: ellos llevan 5 años sin actualizar. Si os movéis ahora, les adelantáis.\n\n¿Hablamos?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Último mensaje — sin presión",
+          "body": "Hola,\n\nNo quiero ser pesado, así que este es mi último email. Si en algún momento queréis mejorar vuestra presencia online — subir la nota en Google, aparecer primeros en búsquedas en Cartaya, tener una web más profesional — aquí estamos.\n\nSomos de Huelva y nos especializamos en negocios locales como el vuestro.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "xino"
+    },
+    {
+      "id": "scapini-fisioterapia",
+      "company": "Scapini Fisioterapia",
+      "sector": "Fisioterapia",
+      "location": "Lepe",
+      "email": "",
+      "phone": "637 093 104",
+      "web": "",
+      "notes": "No tienen web propia. Opera desde Centro Ginecológico Alborada. Solo LinkedIn. Sin presencia digital.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Scapini Fisioterapia no aparece en Google",
+          "body": "Hola,\n\nSoy José, de BRUTAL., una agencia de marketing en Huelva.\n\nHe buscado \"fisioterapeuta en Lepe\" en Google y Scapini Fisioterapia no aparece. Solo he encontrado vuestro perfil de LinkedIn y la referencia en Centro Ginecológico Alborada. Eso significa que todos los pacientes que buscan fisio en Lepe están yendo a vuestra competencia.\n\nSin web, sin ficha de Google optimizada y sin redes sociales, estáis invisibles para el 90% de pacientes que buscan online. Podemos cambiar eso rápido.\n\n¿Tienes 10 minutos esta semana para hablarlo?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 3,
+          "subject": "Vuestra competencia sí aparece",
+          "body": "Hola de nuevo,\n\nClínica Centro Lepe, Fisio Salud Activa, Saludare... todos aparecen cuando alguien busca fisioterapeuta en Lepe. Scapini no. Y eso que vuestro trabajo en suelo pélvico y fisioterapia uroginecológica es un diferenciador enorme que nadie más destaca.\n\nCon una web sencilla, Google Business bien montado y contenido en redes, podríais captar pacientes cada semana sin depender solo del boca a boca.\n\n¿Hablamos?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Última nota sobre visibilidad",
+          "body": "Hola,\n\nNo quiero ser pesado, solo quería dejarte un dato: el 77% de pacientes busca su fisioterapeuta en Google antes de llamar. Sin presencia digital, esos pacientes nunca llegan a vosotros.\n\nSi en algún momento queréis dar el paso, aquí estamos. Sin compromiso.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "jose"
+    },
+    {
+      "id": "clinica-sergio-gomez",
+      "company": "Clínica Sergio Gómez",
+      "sector": "Fisioterapia",
+      "location": "Lepe",
+      "email": "info@fisiosergiogomez.com",
+      "phone": "",
+      "web": "www.fisiosergiogomez.com",
+      "notes": "WordPress + Yoast SEO. Título genérico 'Inicio'. OG image pequeña. Sin redes sociales. Sin blog.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Un detalle en fisiosergiogomez.com que os cuesta pacientes",
+          "body": "Hola Sergio,\n\nSoy José, de BRUTAL., agencia de marketing en Huelva.\n\nHe revisado vuestra web y he visto que el título de la página principal dice \"Inicio - Fisio Sergio Gomez\". Ese título es lo primero que ve Google y lo que aparece en los resultados de búsqueda. Debería decir algo como \"Fisioterapeuta en Lepe | Clínica Sergio Gómez\" para captar búsquedas locales.\n\nTambién he visto que la imagen de previsualización en redes es muy pequeña (300x168). Cuando alguien comparte vuestra web en WhatsApp o Instagram, se ve mal. Son detalles pequeños con impacto grande.\n\n¿Te interesa que te haga un mini-análisis gratuito con más puntos de mejora?",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:32:12.195Z"
+        },
+        {
+          "day": 3,
+          "subject": "¿Tenéis blog o redes activas?",
+          "body": "Hola Sergio,\n\nOtra cosa que he notado: no he encontrado blog en vuestra web ni enlaces a redes sociales. Google posiciona mucho mejor las webs de fisioterapia que publican contenido regularmente — ejercicios, consejos, casos de éxito.\n\nVuestra competencia en Lepe ya lo está haciendo. Un calendario de contenido sencillo (2-3 publicaciones semanales) puede marcar una diferencia brutal en visibilidad.\n\n¿Hablamos 10 minutos?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Último mensaje — sin compromiso",
+          "body": "Hola Sergio,\n\nNo quiero saturarte. Solo quería decirte que hemos ayudado a clínicas similares a multiplicar sus consultas online optimizando SEO local y redes. Si en algún momento te interesa, me tienes aquí.\n\nSuerte con la clínica.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "xino"
+    },
+    {
+      "id": "clinica-centro-lepe",
+      "company": "Clínica Centro Lepe",
+      "sector": "Fisioterapia y Podología",
+      "location": "Lepe",
+      "email": "info@clinicacentrolepe.com",
+      "phone": "623 341 559",
+      "web": "www.clinicacentrolepe.com",
+      "notes": "Web moderna WordPress + Elementor + Yoast. Actualizada marzo 2026. Facebook e Instagram. Meta description genérica.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Vuestra meta description en Google no vende",
+          "body": "Hola,\n\nSoy José, de BRUTAL., agencia de marketing en Huelva.\n\nHe buscado Clínica Centro Lepe en Google y la descripción que aparece es: \"Más salud, más vida. PEDIR CITA Tu opinión, la leemos.\" Eso no le dice a nadie qué hacéis ni por qué deberían elegiros. Deberían aparecer vuestras especialidades — fisioterapia invasiva, osteopatía, podología deportiva — que son vuestro diferenciador.\n\nVuestra web está bien montada con Elementor, pero el SEO tiene margen de mejora grande. ¿Os interesa un análisis rápido gratuito?",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:32:17.413Z"
+        },
+        {
+          "day": 3,
+          "subject": "Vuestras redes vs. vuestra web",
+          "body": "Hola de nuevo,\n\nHe visto que tenéis Facebook e Instagram (@clinicacentrolepe). La pregunta es: ¿estáis convirtiendo seguidores en pacientes? La mayoría de clínicas publican contenido sin estrategia y no ven resultados.\n\nCon un calendario de contenido enfocado en vuestras especialidades (presoterapia, técnicas invasivas, podología deportiva) y campañas locales, podéis llenar agenda sin depender solo del boca a boca.\n\n¿Tenéis 10 minutos esta semana?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Una idea rápida para Clínica Centro Lepe",
+          "body": "Hola,\n\nÚltimo mensaje, prometido. Un blog con artículos tipo \"Qué es la presoterapia y para quién\" o \"Cuándo ir al podólogo deportivo\" posiciona en Google y atrae pacientes que ni sabían que existíais. Es la forma más rentable de crecer.\n\nSi os interesa, aquí estoy. Sin compromiso.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "jose"
+    },
+    {
+      "id": "clinica-rogo",
+      "company": "Clínica Rogo",
+      "sector": "Odontología",
+      "location": "Lepe",
+      "email": "info@clinicarogo.com",
+      "phone": "",
+      "web": "www.clinicarogo.com",
+      "notes": "WordPress muy anticuado: tema TheFox con IE9, publicada 2014, última mod 2022. OG image apunta a otro dominio. Carga lenta.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Vuestra web apunta a otro dominio",
+          "body": "Hola,\n\nSoy José, de BRUTAL., agencia de marketing en Huelva.\n\nHe revisado clinicarogo.com y he encontrado algo curioso: la imagen de previsualización cuando compartís la web en redes apunta a ernestorodriguezcirugia.es, no a clinicarogo.com. Eso confunde a Google y a los pacientes.\n\nAdemás, la web lleva sin actualizarse desde enero de 2022 y carga plugins antiguos (LayerSlider, RevSlider) que la hacen lenta. Google penaliza las webs lentas bajándolas en resultados. Con 13 años de experiencia del Dr. Rodríguez, merecéis una web que esté a la altura.\n\n¿Os interesa que os haga un diagnóstico rápido?",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:32:22.619Z"
+        },
+        {
+          "day": 3,
+          "subject": "La velocidad de clinicarogo.com",
+          "body": "Hola de nuevo,\n\nOtro dato: vuestra web carga más de 15 archivos CSS y varios plugins pesados (LayerSlider, RevSlider, prettyPhoto). Eso en móvil se traduce en 5-8 segundos de carga. El 53% de los usuarios abandona una web que tarda más de 3 segundos.\n\nUna web moderna, rápida y optimizada para \"dentista en Lepe\" os puede traer pacientes nuevos cada semana. ¿Hablamos?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Último apunte sobre Clínica Rogo",
+          "body": "Hola,\n\nNo insisto más. Solo un dato final: vuestras redes (Facebook Ernestooralsurgery, Twitter @od_ernestorodri) no tienen el nombre de Clínica Rogo. Eso fragmenta vuestra marca y confunde a quien os busca.\n\nUnificar marca, web y redes bajo un mismo nombre es el primer paso para crecer online. Cuando queráis, aquí estamos.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "xino"
+    },
+    {
+      "id": "clinica-dental-jaime-costa",
+      "company": "Clínica Dental Jaime Costa Bueno",
+      "sector": "Odontología",
+      "location": "Lepe",
+      "email": "clinicadentaljab@gmail.com",
+      "phone": "959 381 066",
+      "web": "www.clinicadentaljaimecostabueno.com",
+      "notes": "Web HTTrack (copia estática). Ecwid. Email Gmail. Sin blog.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Vuestra web es una copia estática",
+          "body": "Hola Jaime,\n\nSoy José, de BRUTAL., agencia de marketing en Huelva.\n\nHe revisado clinicadentaljaimecostabueno.com y he detectado que está generada con HTTrack, es decir, es una copia estática de una web. Eso significa que no se actualiza, no se indexa bien en Google y no podéis añadir contenido nuevo fácilmente.\n\nPara un dentista en Lepe, aparecer en las primeras posiciones de Google es clave. Con una web real, optimizada y un perfil de Google Business trabajado, podéis captar muchos más pacientes.\n\n¿Te interesa que te cuente cómo?",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:32:27.842Z"
+        },
+        {
+          "day": 3,
+          "subject": "Gmail vs. email profesional",
+          "body": "Hola Jaime,\n\nOtro detalle: vuestro email de contacto es clinicadentaljab@gmail.com. Un email tipo info@clinicadentaljaimecostabueno.com transmite mucha más confianza y profesionalidad. Es un cambio pequeño que afecta a cómo os perciben los pacientes nuevos.\n\nEsto, junto con una web moderna y SEO local, puede cambiar completamente vuestra captación de pacientes.\n\n¿Hablamos esta semana?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Último mensaje — clínica Jaime Costa",
+          "body": "Hola Jaime,\n\nNo quiero molestar más. Solo quería decirte que en Lepe hay al menos 4 clínicas dentales compitiendo por los mismos pacientes online. La diferencia la marca quién tiene mejor presencia digital.\n\nSi algún día queréis dar ese paso, me tienes en jose@brutalmk.com.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "jose"
+    },
+    {
+      "id": "doctora-emilia-nieves",
+      "company": "Doctora Emilia Nieves",
+      "sector": "Odontología",
+      "location": "Lepe",
+      "email": "clinica@doctoraemilianieves.com",
+      "phone": "959 381 700 / 695 858 643",
+      "web": "www.doctoraemilianieves.com",
+      "notes": "Web muy anticuada (template 2015, Modernizr, IE9). OG tags vacíos. 30+ años experiencia. Sin redes sociales. Invisalign, implantes.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "30 años de experiencia, invisible en Google",
+          "body": "Hola Dra. Nieves,\n\nSoy José, de BRUTAL., agencia de marketing en Huelva.\n\nLleva más de 30 años en Lepe, pero su web tiene los meta tags OG vacíos — eso significa que cuando alguien comparte su web en WhatsApp o redes, no aparece ni título, ni imagen, ni descripción. Google también lo penaliza.\n\nAdemás, la web usa tecnología de 2015 (Modernizr, código para IE9). Los pacientes jóvenes que buscan \"dentista en Lepe\" esperan algo más actual. Con toda su experiencia, merece una presencia digital a la altura.\n\n¿Le interesa que le explique qué haríamos?",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:32:33.075Z"
+        },
+        {
+          "day": 3,
+          "subject": "Su Invisalign no aparece en Google",
+          "body": "Hola Dra. Nieves,\n\nHe visto que ofrecen Invisalign, brackets estéticos y ortodoncia interceptiva. Pero si busco \"Invisalign Lepe\" en Google, su clínica no aparece. Eso son pacientes de alto valor que se van a otra clínica.\n\nUna página optimizada para cada tratamiento (Invisalign, implantes, endodoncia) puede posicionarla para esas búsquedas específicas. Es donde está el dinero.\n\n¿Tiene 10 minutos para hablarlo?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Último mensaje — Dra. Nieves",
+          "body": "Hola Dra. Nieves,\n\nNo quiero ser insistente. Solo un apunte final: no he encontrado redes sociales de su clínica. Instagram es donde los pacientes ven resultados de tratamientos y deciden a qué dentista ir. Con 30 años de casos de éxito, tiene material de sobra.\n\nSi le interesa, aquí estamos. Un saludo.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "xino"
+    },
+    {
+      "id": "healthy-feeding",
+      "company": "Healthy Feeding",
+      "sector": "Nutrición",
+      "location": "Moguer / Huelva",
+      "email": "healthyfeeding.es@gmail.com",
+      "phone": "",
+      "web": "www.healthyfeeding.es",
+      "notes": "WordPress + NitroPack CDN. Twitter author muestra nombre del desarrollador. Web sin actualizar desde abril 2025. Email Gmail.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Un detalle en healthyfeeding.es que se os ha escapado",
+          "body": "Hola,\n\nSoy José, de BRUTAL., agencia de marketing en Huelva.\n\nHe revisado vuestra web y he visto que en el código aparece \"DesarrolloWh\" como autor en las etiquetas de Twitter/redes. Es el nombre de vuestro desarrollador, no de Healthy Feeding. Parece un descuido, pero afecta a cómo os ve Google y las redes.\n\nAdemás, la web lleva sin actualizarse desde abril de 2025 — casi un año. Google premia el contenido fresco, y en nutrición hay infinito contenido que podríais publicar para atraer clientes.\n\n¿Os interesa un análisis rápido?",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:32:38.269Z"
+        },
+        {
+          "day": 3,
+          "subject": "Nutrición + contenido = clientes",
+          "body": "Hola de nuevo,\n\nEl sector de nutrición es perfecto para contenido en redes: recetas, mitos alimentarios, transformaciones de clientes, tips semanales. Eso genera confianza y convierte seguidores en pacientes.\n\n¿Estáis publicando regularmente en Instagram? Con un calendario de contenido y una estrategia clara, podéis crecer mucho en Moguer y Huelva. Es vuestro mejor canal de captación.\n\n¿Hablamos?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Última idea para Healthy Feeding",
+          "body": "Hola,\n\nÚltimo mensaje. Vuestro método \"aprender a comer disfrutando de todos los alimentos\" es un mensaje potente, pero hay que amplificarlo. Un blog con recetas y consejos + Instagram activo + Google Business optimizado os puede poner como referencia en nutrición en Huelva.\n\nSi os interesa, aquí estoy. Sin compromiso.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "jose"
+    },
+    {
+      "id": "neodent-moguer",
+      "company": "NeoDent Moguer",
+      "sector": "Odontología",
+      "location": "Moguer",
+      "email": "neodent.tcarrasco@hotmail.com",
+      "phone": "959 371 054 / 640 057 202",
+      "web": "www.clinicaneodentmoguer.com",
+      "notes": "WordPress + NitroPack. Sin meta description. Facebook e Instagram. Email Hotmail. Última actualización feb 2024.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "neodent.tcarrasco@hotmail.com no transmite confianza",
+          "body": "Hola,\n\nSoy José, de BRUTAL., agencia de marketing en Huelva.\n\nHe revisado vuestra web y lo primero que he notado es el email de contacto: neodent.tcarrasco@hotmail.com. Un email de Hotmail para una clínica dental no transmite la profesionalidad que merecéis. Un info@clinicaneodentmoguer.com cambiaría la percepción al instante.\n\nAdemás, vuestra web no tiene una meta description optimizada — Google muestra un texto genérico cortado. Eso os cuesta posiciones en las búsquedas.\n\n¿Os interesa un diagnóstico rápido gratuito?",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:32:43.783Z"
+        },
+        {
+          "day": 3,
+          "subject": "Vuestra web lleva 2 años sin actualizar",
+          "body": "Hola de nuevo,\n\nHe visto que clinicaneodentmoguer.com se actualizó por última vez en febrero de 2024. Google interpreta eso como una web abandonada y la baja en resultados. En Moguer no hay mucha competencia dental online — con poco esfuerzo podríais dominar las búsquedas locales.\n\nTenéis Instagram (@neodent.moguer) y Facebook, que es buena base. Pero sin contenido regular ni web actualizada, no estáis aprovechando el potencial.\n\n¿Hablamos 10 minutos?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Última nota — NeoDent Moguer",
+          "body": "Hola,\n\nÚltimo mensaje, prometido. En Moguer sois prácticamente la única clínica dental con web y redes. Eso es una ventaja enorme si se trabaja bien. Con SEO local, contenido mensual y redes activas, podéis ser LA referencia dental de Moguer.\n\nSi algún día os interesa, me tenéis en xino@brutalmk.com.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "xino"
+    },
+    {
+      "id": "detailing-garage",
+      "company": "Detailing Garage",
+      "sector": "Automoción / Detailing",
+      "location": "Huelva",
+      "email": "info@detailinggarage.es",
+      "phone": "661 699 671",
+      "web": "www.detailinggarage.es",
+      "notes": "Web Mobirise (builder básico). HTML estático. Sin blog. Sin redes. Google Forms para reservas. Keyword stuffing (H1 repetido 4 veces). Texto SEO excesivo y repetitivo.",
+      "emails": [
+        {
+          "day": 1,
+          "subject": "Google os puede penalizar por keyword stuffing",
+          "body": "Hola,\n\nSoy José, de BRUTAL., agencia de marketing en Huelva.\n\nHe revisado detailinggarage.es y he contado que \"restauración y lavado de coches en Huelva\" aparece como título H1 cuatro veces en la misma página. Google considera eso keyword stuffing y lo penaliza bajándoos en resultados. Además, usáis Google Forms para reservar citas — eso no da buena imagen para un servicio premium como el detailing.\n\nVuestro negocio es visual por naturaleza. Con una web profesional, galería de antes/después e Instagram activo, podéis atraer muchos más clientes.\n\n¿Te interesa que te cuente cómo?",
+          "status": "sent",
+          "sentAt": "2026-03-15T20:32:49.003Z"
+        },
+        {
+          "day": 3,
+          "subject": "Detailing sin Instagram es dinero perdido",
+          "body": "Hola de nuevo,\n\nNo he encontrado redes sociales en vuestra web. El detailing de coches es uno de los sectores más visuales que existen — los vídeos de antes/después en Instagram y TikTok generan miles de visualizaciones. Cada vídeo es un anuncio gratuito.\n\nCon un perfil bien montado, contenido de vuestros trabajos y alguna campaña local, podéis llenar agenda sin depender solo del boca a boca.\n\n¿Hablamos esta semana?",
+          "status": "pending",
+          "sentAt": null
+        },
+        {
+          "day": 5,
+          "subject": "Último mensaje — Detailing Garage",
+          "body": "Hola,\n\nNo insisto más. Solo un dato: vuestra web está hecha con un builder básico (Mobirise) que no permite crecer. Sin blog, sin sistema de reservas real, sin redes. Para un negocio premium como el detailing, la imagen digital tiene que estar a la altura del servicio que dais.\n\nSi algún día queréis dar el salto, aquí estamos.",
+          "status": "pending",
+          "sentAt": null
+        }
+      ],
+      "sender": "jose"
+    }
+  ],
+  "config": {
+    "senders": [
+      {
+        "id": "antonio",
+        "name": "Antonio Guerra",
+        "email": "antonio@brutalmk.com"
+      },
+      {
+        "id": "xino",
+        "name": "José Manuel Carrasco",
+        "email": "xino@brutalmk.com"
+      },
+      {
+        "id": "jose",
+        "name": "José García",
+        "email": "jose@brutalmk.com"
+      }
+    ],
+    "replyTo": "brutalmrktdigital@gmail.com"
+  }
+}

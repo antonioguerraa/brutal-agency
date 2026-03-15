@@ -32,6 +32,7 @@ interface FunnelStage {
 
 interface AnalysisResults {
   brandName: string;
+  logoUrl?: string;
   tab1: {
     messaging: InsightBlock;
     seo: InsightBlock;
@@ -59,6 +60,9 @@ export default function ResultsPage() {
   const [revealedIdeas, setRevealedIdeas] = useState(4);
   const [isRevealing, setIsRevealing] = useState(false);
   const [typingIdeas, setTypingIdeas] = useState<number[]>([]);
+  const [showEmailModal, setShowEmailModal] = useState(false);
+  const [email, setEmail] = useState("");
+  const [isGeneratingPdf, setIsGeneratingPdf] = useState(false);
   const router = useRouter();
 
   useEffect(() => {
@@ -100,6 +104,29 @@ export default function ResultsPage() {
       }, i * 400);
     });
   }, [results, isRevealing, revealedIdeas]);
+
+  const handleDownloadPdf = useCallback(async () => {
+    if (!results || !email.trim()) return;
+    setIsGeneratingPdf(true);
+    try {
+      const { pdf } = await import("@react-pdf/renderer");
+      const { ReportPDF } = await import("./ReportPDF");
+      const React = (await import("react")).default;
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const blob = await pdf(React.createElement(ReportPDF, { results, url }) as any).toBlob();
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = `BRUTAL-Informe-${results.brandName.replace(/\s+/g, "-")}.pdf`;
+      link.click();
+      URL.revokeObjectURL(link.href);
+      setShowEmailModal(false);
+    } catch (err) {
+      console.error("PDF generation error:", err);
+      alert("Error al generar el PDF. Inténtalo de nuevo.");
+    } finally {
+      setIsGeneratingPdf(false);
+    }
+  }, [results, url, email]);
 
   if (!results) {
     return (
@@ -145,7 +172,16 @@ export default function ResultsPage() {
           <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-3">
             RESULTADOS PARA <span className="highlight-red">{results.brandName.toUpperCase()}</span>
           </h1>
-          <p className="text-[var(--text-muted)] text-sm font-bold uppercase tracking-wider">{url}</p>
+          <p className="text-[var(--text-muted)] text-sm font-bold uppercase tracking-wider mb-6">{url}</p>
+          <button
+            onClick={() => setShowEmailModal(true)}
+            className="btn-brutal text-sm py-3 px-6 inline-flex items-center gap-2"
+          >
+            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+              <path strokeLinecap="square" d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+            </svg>
+            DESCARGAR INFORME PDF
+          </button>
         </div>
       </section>
 
@@ -197,14 +233,90 @@ export default function ResultsPage() {
           <p className="text-white/60 text-lg mb-8 max-w-lg mx-auto">
             Esto es una muestra de lo que haríamos con tu marca. ¿Quieres ver el plan completo?
           </p>
-          <a href="/#contact" className="btn-brutal inline-flex">
-            HÁBLANOS
-            <svg className="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
-              <path strokeLinecap="square" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </a>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <button
+              onClick={() => setShowEmailModal(true)}
+              className="btn-brutal inline-flex items-center justify-center bg-white text-black"
+            >
+              <svg className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                <path strokeLinecap="square" d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+              </svg>
+              DESCARGAR PDF
+            </button>
+            <a href="/#contact" className="btn-brutal inline-flex items-center justify-center">
+              HÁBLANOS
+              <svg className="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+                <path strokeLinecap="square" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </a>
+          </div>
         </div>
       </section>
+
+      {/* EMAIL MODAL */}
+      {showEmailModal && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/60" onClick={() => setShowEmailModal(false)}>
+          <div
+            className="bg-white brutal-border brutal-shadow p-8 max-w-md w-full mx-4"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex justify-between items-start mb-6">
+              <div>
+                <h3 className="text-2xl font-bold">DESCARGAR INFORME</h3>
+                <p className="text-sm text-[var(--text-muted)] mt-1">
+                  Introduce tu email para recibir el PDF
+                </p>
+              </div>
+              <button
+                onClick={() => setShowEmailModal(false)}
+                className="text-2xl font-bold hover:text-[var(--primary)] transition-colors cursor-pointer"
+              >
+                ×
+              </button>
+            </div>
+
+            <div className="space-y-4">
+              <div>
+                <input
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="tu@email.com"
+                  className="w-full brutal-border p-3 text-base font-bold focus:outline-none focus:ring-2 focus:ring-[var(--primary)]"
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter" && email.trim()) handleDownloadPdf();
+                  }}
+                  autoFocus
+                />
+              </div>
+
+              <button
+                onClick={handleDownloadPdf}
+                disabled={!email.trim() || isGeneratingPdf}
+                className="btn-brutal w-full py-3 disabled:opacity-50 flex items-center justify-center gap-2"
+              >
+                {isGeneratingPdf ? (
+                  <>
+                    <span className="inline-block w-4 h-4 brutal-border animate-spin" style={{ borderTopColor: "var(--primary)" }} />
+                    GENERANDO PDF...
+                  </>
+                ) : (
+                  <>
+                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                      <path strokeLinecap="square" d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+                    </svg>
+                    DESCARGAR PDF
+                  </>
+                )}
+              </button>
+
+              <p className="text-xs text-center text-[var(--text-muted)]">
+                Al descargar aceptas recibir comunicaciones de BRUTAL.
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
