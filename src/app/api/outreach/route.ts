@@ -4,32 +4,14 @@ import fs from "fs";
 import path from "path";
 
 const DATA_PATH = path.join(process.cwd(), "src/data/outreach.json");
-const TEMPLATE_PATH = path.join(process.cwd(), "src/data/email-template.html");
 
 function readData() {
   const raw = fs.readFileSync(DATA_PATH, "utf-8");
   return JSON.parse(raw);
 }
 
-function buildHtml(body: string, senderName: string): string {
-  const template = fs.readFileSync(TEMPLATE_PATH, "utf-8");
-  // Convert plain text body to HTML paragraphs
-  const bodyHtml = body
-    .split("\n\n")
-    .map((p) => `<p style="margin:0 0 14px 0;">${p.replace(/\n/g, "<br>")}</p>`)
-    .join("");
-
-  // Remove signature lines from body (they're in the template)
-  const cleanBody = bodyHtml
-    .replace(/<p[^>]*>Un saludo,<br>(?:José García|Antonio Guerra|José Manuel Carrasco)<br>BRUTAL\.[^<]*<\/p>/gi, "")
-    .replace(/<p[^>]*>(?:José García|Antonio Guerra|José Manuel Carrasco)<br>BRUTAL\.[^<]*<\/p>/gi, "")
-    .replace(/<p[^>]*>(?:brutalmk\.com)<\/p>/gi, "");
-
-  return template
-    .replace("{{BODY_HTML}}", cleanBody)
-    .replace("{{SENDER_NAME}}", senderName)
-    .replace("{{SUBJECT}}", "")
-    .replace("{{UNSUBSCRIBE_URL}}", "https://brutalmk.com/unsubscribe");
+function buildPlainText(body: string, senderName: string): string {
+  return body + "\n\n" + senderName + " · BRUTAL. · Huelva · brutalmk.com";
 }
 
 function writeData(data: ReturnType<typeof readData>) {
@@ -73,15 +55,14 @@ export async function POST(request: NextRequest) {
       || data.config.senders?.[0]
       || { name: "BRUTAL.", email: "hola@brutalmk.com" };
 
-    const html = buildHtml(email.body, sender.name);
+    const text = buildPlainText(email.body, sender.name);
 
     const result = await resend.emails.send({
       from: `${sender.name} <${sender.email}>`,
       to: campaign.email,
       replyTo: data.config.replyTo,
       subject: email.subject,
-      html,
-      text: email.body,
+      text,
     });
 
     // Update status

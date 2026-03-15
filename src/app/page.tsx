@@ -369,18 +369,47 @@ export default function Home() {
               </div>
             </div>
             <div className="brutal-border brutal-shadow bg-white p-6 sm:p-8">
-              <form className="space-y-6">
+              <form className="space-y-6" onSubmit={async (e) => {
+                e.preventDefault();
+                const form = e.currentTarget;
+                const btn = form.querySelector("button[type=submit]") as HTMLButtonElement;
+                const formData = new FormData(form);
+                btn.disabled = true;
+                btn.textContent = "Enviando...";
+                try {
+                  const res = await fetch("/api/contact", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                      name: formData.get("name"),
+                      email: formData.get("email"),
+                      message: formData.get("message"),
+                    }),
+                  });
+                  if (res.ok) {
+                    form.reset();
+                    btn.textContent = "¡Enviado!";
+                    setTimeout(() => { btn.disabled = false; btn.textContent = c.formSend; }, 3000);
+                  } else {
+                    btn.textContent = "Error — inténtalo de nuevo";
+                    setTimeout(() => { btn.disabled = false; btn.textContent = c.formSend; }, 3000);
+                  }
+                } catch {
+                  btn.textContent = "Error — inténtalo de nuevo";
+                  setTimeout(() => { btn.disabled = false; btn.textContent = c.formSend; }, 3000);
+                }
+              }}>
                 <div>
                   <label className="block text-sm font-bold uppercase tracking-wider mb-2">{c.formName}</label>
-                  <input type="text" className="w-full brutal-border px-4 py-3 text-lg focus:outline-none focus:ring-0" placeholder={c.namePlaceholder} />
+                  <input name="name" type="text" required className="w-full brutal-border px-4 py-3 text-lg focus:outline-none focus:ring-0" placeholder={c.namePlaceholder} />
                 </div>
                 <div>
                   <label className="block text-sm font-bold uppercase tracking-wider mb-2">Email</label>
-                  <input type="email" className="w-full brutal-border px-4 py-3 text-lg focus:outline-none focus:ring-0" placeholder="tu@email.com" />
+                  <input name="email" type="email" required className="w-full brutal-border px-4 py-3 text-lg focus:outline-none focus:ring-0" placeholder="tu@email.com" />
                 </div>
                 <div>
                   <label className="block text-sm font-bold uppercase tracking-wider mb-2">{c.formMessage}</label>
-                  <textarea rows={4} className="w-full brutal-border px-4 py-3 text-lg focus:outline-none focus:ring-0 resize-none" placeholder={c.msgPlaceholder} />
+                  <textarea name="message" rows={4} required className="w-full brutal-border px-4 py-3 text-lg focus:outline-none focus:ring-0 resize-none" placeholder={c.msgPlaceholder} />
                 </div>
                 <button type="submit" className="btn-brutal w-full">
                   {c.formSend}
