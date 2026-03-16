@@ -440,7 +440,10 @@
           "sentAt": null
         }
       ],
-      "sender": "josemanuel"
+      "sender": "josemanuel",
+      "replied": true,
+      "repliedAt": "2026-03-16T08:50:08.000Z",
+      "replySnippet": "Hola José Manuel, Gracias por contactar y por identificar la mejora en la página. Ahora mismo no nos interesa invertir en SEO pero nos quedamos con vuestra agencia para el futuro. Saludos, De: José"
     },
     {
       "id": "clinica-del-carmen-huelva",
@@ -4384,7 +4387,10 @@
           "status": "pending",
           "sentAt": null
         }
-      ]
+      ],
+      "replied": true,
+      "repliedAt": "2026-03-16T10:14:58.000Z",
+      "replySnippet": "El 2026-03-16 10:39, José García escribió: &gt; Buenas, &gt; &gt; Soy José, de un equipo de marketing en Sevilla. Os escribo porque &gt; trabajamos con clínicas de fisioterapia y rehabilitación en la"
     },
     {
       "id": 15,
@@ -4928,7 +4934,10 @@
           "status": "pending",
           "sentAt": null
         }
-      ]
+      ],
+      "replied": true,
+      "repliedAt": "2026-03-16T09:45:38.000Z",
+      "replySnippet": "Actualmente acabamos de comenzar con una nueva agencia y estamos a la espera de comprobar resultados en los próximos 6 meses Gracias igualmente! Centro de Nutrición Personalizada e. info@nutrygente.com"
     },
     {
       "id": "premium-cars-sevilla",
@@ -6084,7 +6093,10 @@
           "status": "pending",
           "sentAt": null
         }
-      ]
+      ],
+      "replied": true,
+      "repliedAt": "2026-03-16T13:03:45.000Z",
+      "replySnippet": "Buenas tardes, no me importaría tener una reunión, dígame disponibilidad y cuadro en la agenda, de acuerdo? Gracias.Un saludo Enviado desde mi iPhone &gt; El 16 mar 2026, a las 10:43, José García &lt;"
     },
     {
       "id": "arje-decoracion-sevilla",
@@ -6165,7 +6177,7 @@
       {
         "id": "josemanuel",
         "name": "José Manuel Carrasco",
-        "email": "josemanuel@brutalmk.com"
+        "email": "jm.carrasco@brutalmk.com"
       },
       {
         "id": "jose",
