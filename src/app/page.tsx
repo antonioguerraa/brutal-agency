@@ -339,9 +339,9 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-4">
                 {[
                   { initial: "J", name: "José García", role: c.role1, bg: "var(--primary)" },
-                  { initial: "A", name: "Ana Rodríguez", role: c.role2, bg: "var(--secondary)" },
+                  { initial: "C", name: "Clara Jiménez", role: c.role2, bg: "var(--secondary)" },
                   { initial: "A", name: "Antonio Guerra", role: c.role3, bg: "var(--primary)" },
-                  { initial: "X", name: "Xino Carrasco", role: c.role4, bg: "var(--secondary)" },
+                  { initial: "JM", name: "JM Carrasco", role: c.role4, bg: "var(--secondary)" },
                 ].map((m, i) => (
                   <div key={i} className="brutal-border brutal-shadow p-6 cursor-pointer">
                     <div className="w-16 h-16 brutal-border flex items-center justify-center text-2xl font-bold mb-4" style={{ backgroundColor: m.bg, color: "white" }}>{m.initial}</div>

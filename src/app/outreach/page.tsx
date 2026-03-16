@@ -26,6 +26,9 @@ interface Campaign {
   web: string;
   notes: string;
   sender: string;
+  replied?: boolean;
+  repliedAt?: string;
+  replySnippet?: string;
   emails: EmailEntry[];
 }
 
@@ -128,14 +131,17 @@ export default function OutreachPage() {
                     <div
                       className="w-10 h-10 brutal-border flex items-center justify-center text-sm font-bold shrink-0"
                       style={{
-                        background: sentCount === total && total > 0 ? "var(--secondary)" : sentCount > 0 ? "var(--cta)" : "white",
-                        color: sentCount === total && total > 0 ? "white" : "black",
+                        background: campaign.replied ? "#22c55e" : sentCount === total && total > 0 ? "var(--secondary)" : sentCount > 0 ? "var(--cta)" : "white",
+                        color: campaign.replied || (sentCount === total && total > 0) ? "white" : "black",
                       }}
                     >
-                      {sentCount}/{total}
+                      {campaign.replied ? "✓" : `${sentCount}/${total}`}
                     </div>
                     <div>
-                      <div className="font-bold text-lg">{campaign.company}</div>
+                      <div className="font-bold text-lg">
+                        {campaign.company}
+                        {campaign.replied && <span className="ml-2 text-xs font-bold text-green-600 uppercase">Respondió</span>}
+                      </div>
                       <div className="text-xs text-[var(--text-muted)] flex gap-2 flex-wrap">
                         <span>{campaign.sector}</span>
                         <span>·</span>
@@ -171,6 +177,15 @@ export default function OutreachPage() {
                         </a>
                       )}
                     </div>
+
+                    {campaign.replied && campaign.replySnippet && (
+                      <div className="brutal-border bg-green-50 p-4 mb-4" style={{ borderLeftWidth: "4px", borderLeftColor: "#22c55e" }}>
+                        <div className="text-xs font-bold text-green-700 uppercase tracking-wider mb-1">
+                          Respuesta {campaign.repliedAt && `· ${new Date(campaign.repliedAt).toLocaleDateString("es-ES", { day: "numeric", month: "short" })}`}
+                        </div>
+                        <p className="text-sm text-green-900">{campaign.replySnippet}</p>
+                      </div>
+                    )}
 
                     {campaign.notes && (
                       <p className="text-sm text-[var(--text-muted)] mb-4 italic">{campaign.notes}</p>
