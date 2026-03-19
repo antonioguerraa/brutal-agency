@@ -47,6 +47,7 @@ export default function OutreachPage() {
   const [data, setData] = useState<OutreachData | null>(null);
   const [expandedId, setExpandedId] = useState<string | null>(null);
   const [previewEmail, setPreviewEmail] = useState<{ campaign: Campaign; index: number } | null>(null);
+  const [filter, setFilter] = useState<"all" | "replied" | "sent" | "bounced">("all");
 
   const fetchData = useCallback(async () => {
     const res = await fetch("/api/outreach");
@@ -109,13 +110,40 @@ export default function OutreachPage() {
             </div>
           </div>
 
+          {/* Filters */}
+          <div className="flex flex-wrap gap-2">
+            {[
+              { id: "all" as const, label: "Todos", count: data.campaigns.length },
+              { id: "replied" as const, label: "Respondieron", count: data.campaigns.filter(c => c.replied).length },
+              { id: "sent" as const, label: "Enviados", count: data.campaigns.filter(c => c.emails[0]?.status === "sent" && !c.replied).length },
+              { id: "bounced" as const, label: "Rebotados", count: data.campaigns.filter(c => c.emails[0]?.status === "bounced" || c.bounced).length },
+            ].map((f) => (
+              <button
+                key={f.id}
+                onClick={() => setFilter(f.id)}
+                className={`brutal-border px-4 py-2 text-xs font-bold uppercase tracking-wider cursor-pointer transition-all ${
+                  filter === f.id
+                    ? f.id === "replied" ? "bg-green-500 text-white" : "bg-black text-white"
+                    : "bg-white hover:bg-gray-50"
+                }`}
+              >
+                {f.label} ({f.count})
+              </button>
+            ))}
+          </div>
+
         </div>
       </section>
 
       {/* CAMPAIGNS */}
       <section className="px-6 pb-16">
         <div className="max-w-5xl mx-auto space-y-4">
-          {data.campaigns.map((campaign) => {
+          {data.campaigns.filter((campaign) => {
+            if (filter === "replied") return campaign.replied;
+            if (filter === "sent") return campaign.emails[0]?.status === "sent" && !campaign.replied;
+            if (filter === "bounced") return campaign.emails[0]?.status === "bounced" || campaign.bounced;
+            return true;
+          }).map((campaign) => {
             const isExpanded = expandedId === campaign.id;
             const sentCount = campaign.emails.filter(e => e.status === "sent").length;
             const total = campaign.emails.length;
