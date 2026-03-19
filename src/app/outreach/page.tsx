@@ -6,7 +6,7 @@ interface EmailEntry {
   day: number;
   subject: string;
   body: string;
-  status: "pending" | "sent" | "failed";
+  status: "pending" | "sent" | "failed" | "bounced";
   sentAt: string | null;
 }
 
@@ -29,6 +29,7 @@ interface Campaign {
   replied?: boolean;
   repliedAt?: string;
   replySnippet?: string;
+  bounced?: boolean;
   emails: EmailEntry[];
 }
 
