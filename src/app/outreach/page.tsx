@@ -30,6 +30,7 @@ interface Campaign {
   repliedAt?: string;
   replySnippet?: string;
   bounced?: boolean;
+  pipelineStatus?: "abierto" | "cerrado";
   emails: EmailEntry[];
 }
 
@@ -48,7 +49,7 @@ export default function OutreachPage() {
   const [data, setData] = useState<OutreachData | null>(null);
   const [expandedId, setExpandedId] = useState<string | null>(null);
   const [previewEmail, setPreviewEmail] = useState<{ campaign: Campaign; index: number } | null>(null);
-  const [filter, setFilter] = useState<"all" | "replied" | "sent" | "bounced">("all");
+  const [filter, setFilter] = useState<"all" | "replied" | "sent" | "bounced" | "abierto" | "cerrado">("all");
 
   const fetchData = useCallback(async () => {
     const res = await fetch("/api/outreach");
@@ -114,17 +115,19 @@ export default function OutreachPage() {
           {/* Filters */}
           <div className="flex flex-wrap gap-2">
             {[
-              { id: "all" as const, label: "Todos", count: data.campaigns.length },
-              { id: "replied" as const, label: "Respondieron", count: data.campaigns.filter(c => c.replied).length },
-              { id: "sent" as const, label: "Enviados", count: data.campaigns.filter(c => c.emails[0]?.status === "sent" && !c.replied).length },
-              { id: "bounced" as const, label: "Rebotados", count: data.campaigns.filter(c => c.emails[0]?.status === "bounced" || c.bounced).length },
+              { id: "all" as const, label: "Todos", count: data.campaigns.length, color: "bg-black" },
+              { id: "abierto" as const, label: "Abiertos", count: data.campaigns.filter(c => c.pipelineStatus === "abierto").length, color: "bg-blue-600" },
+              { id: "cerrado" as const, label: "Cerrados", count: data.campaigns.filter(c => c.pipelineStatus === "cerrado").length, color: "bg-red-600" },
+              { id: "replied" as const, label: "Respondieron", count: data.campaigns.filter(c => c.replied).length, color: "bg-green-500" },
+              { id: "sent" as const, label: "Enviados", count: data.campaigns.filter(c => c.emails[0]?.status === "sent" && !c.replied).length, color: "bg-black" },
+              { id: "bounced" as const, label: "Rebotados", count: data.campaigns.filter(c => c.emails[0]?.status === "bounced" || c.bounced).length, color: "bg-black" },
             ].map((f) => (
               <button
                 key={f.id}
                 onClick={() => setFilter(f.id)}
                 className={`brutal-border px-4 py-2 text-xs font-bold uppercase tracking-wider cursor-pointer transition-all ${
                   filter === f.id
-                    ? f.id === "replied" ? "bg-green-500 text-white" : "bg-black text-white"
+                    ? f.color + " text-white"
                     : "bg-white hover:bg-gray-50"
                 }`}
               >
@@ -143,6 +146,8 @@ export default function OutreachPage() {
             if (filter === "replied") return campaign.replied;
             if (filter === "sent") return campaign.emails[0]?.status === "sent" && !campaign.replied;
             if (filter === "bounced") return campaign.emails[0]?.status === "bounced" || campaign.bounced;
+            if (filter === "abierto") return campaign.pipelineStatus === "abierto";
+            if (filter === "cerrado") return campaign.pipelineStatus === "cerrado";
             return true;
           }).map((campaign) => {
             const isExpanded = expandedId === campaign.id;
@@ -169,7 +174,9 @@ export default function OutreachPage() {
                     <div>
                       <div className="font-bold text-lg">
                         {campaign.company}
-                        {campaign.replied && <span className="ml-2 text-xs font-bold text-green-600 uppercase">Respondió</span>}
+                        {campaign.pipelineStatus === "abierto" && <span className="ml-2 text-xs font-bold text-blue-600 uppercase">Abierto</span>}
+                        {campaign.pipelineStatus === "cerrado" && <span className="ml-2 text-xs font-bold text-red-600 uppercase">Cerrado</span>}
+                        {campaign.replied && !campaign.pipelineStatus && <span className="ml-2 text-xs font-bold text-green-600 uppercase">Respondió</span>}
                       </div>
                       <div className="text-xs text-[var(--text-muted)] flex gap-2 flex-wrap">
                         <span>{campaign.sector}</span>
