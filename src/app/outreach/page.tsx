@@ -247,7 +247,7 @@ export default function OutreachPage() {
                         <div className="text-xs font-bold text-green-700 uppercase tracking-wider mb-1">
                           Respuesta {campaign.repliedAt && `· ${new Date(campaign.repliedAt).toLocaleDateString("es-ES", { day: "numeric", month: "short" })}`}
                         </div>
-                        <p className="text-sm text-green-900">{campaign.replySnippet}</p>
+                        <p className="text-sm text-green-900 break-words whitespace-pre-wrap">{campaign.replySnippet}</p>
                       </div>
                     )}
 
