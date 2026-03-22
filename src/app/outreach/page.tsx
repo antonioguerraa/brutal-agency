@@ -31,6 +31,7 @@ interface Campaign {
   replySnippet?: string;
   bounced?: boolean;
   pipelineStatus?: "abierto" | "cerrado";
+  conversationThread?: { from: string; date: string; sender?: string; text: string }[];
   emails: EmailEntry[];
 }
 
@@ -214,7 +215,34 @@ export default function OutreachPage() {
                       )}
                     </div>
 
-                    {campaign.replied && campaign.replySnippet && (
+                    {/* Conversation Thread */}
+                    {campaign.conversationThread && campaign.conversationThread.length > 0 && (
+                      <div className="mb-4">
+                        <div className="text-xs font-bold uppercase tracking-wider text-[var(--text-muted)] mb-2">Conversación</div>
+                        <div className="space-y-2">
+                          {campaign.conversationThread.map((msg, idx) => (
+                            <div
+                              key={idx}
+                              className={`p-3 text-sm ${msg.from === "us"
+                                ? "bg-blue-50 border-l-4 border-blue-500 ml-4"
+                                : "bg-green-50 border-l-4 border-green-500 mr-4"
+                              }`}
+                            >
+                              <div className="flex justify-between items-center mb-1">
+                                <span className="text-xs font-bold">
+                                  {msg.from === "us" ? (msg.sender || "BRUTAL.") : campaign.company}
+                                </span>
+                                <span className="text-xs text-[var(--text-muted)]">{msg.date}</span>
+                              </div>
+                              <p className="text-sm text-gray-700 whitespace-pre-wrap">{msg.text}</p>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Reply snippet (only if no conversation thread) */}
+                    {campaign.replied && campaign.replySnippet && !campaign.conversationThread?.length && (
                       <div className="brutal-border bg-green-50 p-4 mb-4" style={{ borderLeftWidth: "4px", borderLeftColor: "#22c55e" }}>
                         <div className="text-xs font-bold text-green-700 uppercase tracking-wider mb-1">
                           Respuesta {campaign.repliedAt && `· ${new Date(campaign.repliedAt).toLocaleDateString("es-ES", { day: "numeric", month: "short" })}`}
